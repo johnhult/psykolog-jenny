@@ -107,13 +107,13 @@ class App extends React.Component {
 
 				{this.state.appState.deviceIsIOS && !this.state.appState.isStandalone && <InstallBanner />}
 
-				{!this.state.appState.closedConsent && (
+				{/* {!this.state.appState.closedConsent && (
 					<ConsentModal
 						text="By using this app/site you are agreeing to our Integrity Policy and our use of cookies and similar technologies."
 						closeLabel="Close"
 						close={this.closeConsentModal}
 					/>
-				)}
+				)} */}
 
 				<Routes appState={this.state.appState} data={this.state.data} />
 			</>
