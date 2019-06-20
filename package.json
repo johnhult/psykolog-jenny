@@ -8,6 +8,8 @@
     "siteUrl": "https://project.netlify.com"
   },
   "dependencies": {
+    "confetti-js": "^0.0.15",
+    "contentful": "^7.8.0",
     "preact": "^8.4.2",
     "preact-compat": "^3.18.4",
     "react": "^16.8.1",

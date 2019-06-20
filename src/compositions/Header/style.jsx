@@ -18,10 +18,31 @@ export const StyledHeader = styled.div`
 	h2 {
 		text-align: center;
 	}
+	@media all and (min-width: ${breakpoints.tablet}) {
+		h1,
+		h2 {
+			text-align: left;
+		}
+	}
 `;
 
 export const Wrapper = styled.div`
 	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	@media all and (min-width: ${breakpoints.tablet}) {
+		flex-direction: row;
+		img {
+			margin-right: 40px;
+			margin-bottom: 0;
+		}
+	}
+
+	img {
+		border-radius: 200px;
+		margin-bottom: 40px;
+	}
 `;
 
 export const H2WithLines = styled(H2)`
