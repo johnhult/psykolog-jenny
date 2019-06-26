@@ -19,7 +19,9 @@ const Header = props => {
 	);
 };
 
-Header.propTypes = {};
+Header.propTypes = {
+	img: PropTypes.object
+};
 
 Header.defaultTypes = {};
 
