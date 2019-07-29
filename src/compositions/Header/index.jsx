@@ -23,7 +23,8 @@ const Header = props => {
 };
 
 Header.propTypes = {
-	img: PropTypes.object
+	img: PropTypes.object,
+	text: PropTypes.string
 };
 
 Header.defaultTypes = {};

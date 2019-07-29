@@ -43,3 +43,40 @@ export const BlogInfo = styled.div`
 		align-self: flex-end;
 	}
 `;
+
+export const MegaSection = styled.div`
+	width: 100%;
+	padding: 100px 5%;
+	max-width: calc(1100px + 10%);
+	margin: 0 auto;
+`;
+
+export const MegaBox = styled.div`
+	display: flex;
+	position: relative;
+	padding: 100px 10px;
+	.Mega {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -1;
+	}
+	img {
+		width: 180px;
+		height: auto;
+		margin-left: 40px;
+		object-fit: contain;
+		object-position: center top;
+	}
+	&:nth-child(odd) {
+		.Mega {
+			right: 0;
+			left: initial;
+		}
+		img {
+			order: -1;
+			margin-right: 40px;
+			margin-left: 0;
+		}
+	}
+`;

@@ -6,11 +6,12 @@ import ConfettiGenerator from 'confetti-js';
 import Loader from 'components/Loader';
 import Header from 'compositions/Header';
 import getDataContentful from 'helpers/contentful/getDataContentful.mjs';
-
-import { HomeViewStyled, Waves, BlogInfo } from './style.jsx';
 import H2 from 'components/H2';
 import Paragraph from 'components/Paragraph';
 import ButtonLink from 'components/ButtonLink';
+import Mega from 'components/Mega/index.jsx';
+
+import { HomeViewStyled, Waves, BlogInfo, MegaSection, MegaBox } from './style.jsx';
 
 class HomeView extends React.Component {
 	constructor(props) {
@@ -59,6 +60,13 @@ class HomeView extends React.Component {
 
 	render() {
 		const { data } = this.state;
+		const mega = data
+			? [
+					{ header: data.mega1Header, text: data.mega1Text, img: 'glasses' },
+					{ header: data.mega2Header, text: data.mega2Text, img: 'lightning' },
+					{ header: data.mega3Header, text: data.mega3Text, img: 'flame' }
+			  ]
+			: [];
 		if (this.state.isLoading) {
 			return <Loader />;
 		} else {
@@ -73,6 +81,19 @@ class HomeView extends React.Component {
 							{data.break1ButtonText}
 						</ButtonLink>
 					</BlogInfo>
+					<MegaSection>
+						{mega.map((item, index) => {
+							return (
+								<MegaBox key={`Mega-${index}`}>
+									<Mega className="Mega" offwhite>
+										{item.header}
+									</Mega>
+									<Paragraph>{item.text}</Paragraph>
+									<img src={`/assets/gfx/${item.img}.svg`}></img>
+								</MegaBox>
+							);
+						})}
+					</MegaSection>
 					<canvas id="confetti-holder"></canvas>
 				</HomeViewStyled>
 			);
