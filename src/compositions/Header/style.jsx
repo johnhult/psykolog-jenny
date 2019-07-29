@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import H2 from 'components/H2';
-
 import breakpoints from 'helpers/constants/breakpoints.mjs';
 
 export const StyledHeader = styled.div`
@@ -10,7 +8,7 @@ export const StyledHeader = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 10% 5%;
+	padding: 100px 5%;
 	position: relative;
 	max-width: calc(1100px + 10%);
 	margin: 0 auto;
@@ -26,17 +24,6 @@ export const StyledHeader = styled.div`
 	}
 `;
 
-export const BlobImg = styled.img`
-	position: absolute;
-	width: 80%;
-	height: auto;
-	z-index: -1;
-	&.Nudge {
-		z-index: -2;
-		transform: translate3d(10%, 20px, 0);
-	}
-`;
-
 export const Wrapper = styled.div`
 	display: flex;
 	align-items: center;
@@ -44,6 +31,7 @@ export const Wrapper = styled.div`
 	img {
 		order: -1;
 		border-radius: 200px;
+		margin-bottom: 40px;
 	}
 	@media all and (min-width: ${breakpoints.tablet}) {
 		flex-direction: row;
@@ -52,5 +40,23 @@ export const Wrapper = styled.div`
 			margin-bottom: 0;
 			order: 1;
 		}
+	}
+`;
+
+export const BlobImg = styled.img`
+	position: absolute;
+	width: auto;
+	height: 100%;
+	z-index: -1;
+	/* transform: rotate(90deg); */
+	max-width: initial;
+	@media all and (min-width: ${breakpoints.tablet}) {
+		width: 80%;
+		height: auto;
+		/* transform: rotate(0); */
+	}
+	&.Nudge {
+		z-index: -2;
+		transform: translate3d(10%, 20px, 0);
 	}
 `;

@@ -14,7 +14,7 @@ const Header = props => {
 			<Wrapper>
 				<div>
 					<H1>Psykolog Jenny</H1>
-					<Paragraph>{props.text}</Paragraph>
+					<Paragraph noBot>{props.text}</Paragraph>
 				</div>
 				<img src={`${props.img.file.url}?w=200&h=200&fit=fill&f=face`}></img>
 			</Wrapper>

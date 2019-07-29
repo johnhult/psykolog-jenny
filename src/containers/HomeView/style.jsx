@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import View from 'containers/View';
 
 import colors from 'tokens/colors.mjs';
-import ButtonLink from '../../components/ButtonLink/index';
 
 export const HomeViewStyled = styled(View)`
 	canvas {
@@ -19,6 +18,8 @@ export const HomeViewStyled = styled(View)`
 export const Waves = styled.img`
 	position: relative;
 	z-index: -10;
+	width: 100%;
+	margin-top: -5%;
 `;
 
 export const BlogInfo = styled.div`
@@ -29,6 +30,7 @@ export const BlogInfo = styled.div`
 	padding: 30px 20px 20px;
 	position: relative;
 	margin-top: -70px;
+	margin-top: -5%;
 	background-color: ${colors.white};
 	display: flex;
 	flex-direction: column;
