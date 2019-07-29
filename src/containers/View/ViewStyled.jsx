@@ -8,6 +8,8 @@ const ViewStyled = styled.main`
 	margin: 0 auto;
 	box-sizing: border-box;
 	overflow-x: hidden;
+	padding-top: 60px;
+	padding-bottom: 60px;
 `;
 
 export default ViewStyled;

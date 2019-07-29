@@ -7,8 +7,9 @@ import fontWeights from 'tokens/fontWeights.mjs';
 const H2Styled = styled.h2`
 	font-size: ${fontSizes.h2};
 	line-height: ${lineHeights.xs};
-	font-weight: ${fontWeights.regular};
+	font-weight: ${fontWeights.bold};
 	text-align: ${props => (props.center ? 'center' : '')};
+	margin: 0;
 `;
 
 export default H2Styled;

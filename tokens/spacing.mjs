@@ -1,9 +1,9 @@
 const spacing = {
-	huge: '6.25em',
-	large: '4.375em',
-	medium: '3.125em',
-	small: '1.5em',
-	tiny: '0.75em'
+	huge: '9.375em',
+	large: '7.5em',
+	medium: '5.625em',
+	small: '3.75em',
+	tiny: '1.875em'
 };
 
 export default spacing;

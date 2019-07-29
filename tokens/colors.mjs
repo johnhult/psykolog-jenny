@@ -1,20 +1,12 @@
 const colors = {
-	greenLight: 'rgba(111, 207, 151, 1)',
-	greenMid: 'rgba(39, 174, 96, 1)',
-	green: 'rgba(33, 150, 83, 1)',
-	blueLight: 'rgba(86, 204, 242, 1)',
-	blueMid: 'rgba(45, 156, 219, 1)',
-	blue: 'rgba(47, 128, 237, 1)',
-	yellow: 'rgba(242, 201, 76, 1)',
-	orange: 'rgba(242, 153, 74, 1)',
-	red: 'rgba(235, 87, 87, 1)',
-	gray5: 'rgba(242, 242, 242, 1)',
-	gray4: 'rgba(224, 224, 224, 1)',
-	gray3: 'rgba(189, 189, 189, 1)',
-	gray2: 'rgba(130, 130, 130, 1)',
-	gray1: 'rgba(79, 79, 79, 1)',
+	offcolored: 'rgba(255, 249, 235, 1)',
+	accent: 'rgba(255, 151, 170, 1)',
+	secondary: 'rgba(40, 161, 177, 1)',
+	grey: 'rgba(185, 185, 185, 1)',
+	primary: 'rgba(255, 214, 67, 1)',
+	offwhite: 'rgba(244, 244, 244, 1)',
 	white: 'rgba(255, 255, 255, 1)',
-	black: 'rgba(51, 51, 51, 1)'
+	black: 'rgba(54, 54, 54, 1)'
 };
 
 export default colors;

@@ -10,9 +10,7 @@ export default async function getDataContentful(query) {
 			// });
 
 			const _entries = entries.fields;
-			console.log('ENTRIES', _entries);
 			Object.keys(_entries).forEach(key => {
-				console.log(_entries[key]);
 				if (_entries[key].fields) {
 					_entries[key] = _entries[key].fields;
 				}

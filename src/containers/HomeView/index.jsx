@@ -7,7 +7,10 @@ import Loader from 'components/Loader';
 import Header from 'compositions/Header';
 import getDataContentful from 'helpers/contentful/getDataContentful.mjs';
 
-import { HomeViewStyled } from './style.jsx';
+import { HomeViewStyled, Waves, BlogInfo } from './style.jsx';
+import H2 from 'components/H2';
+import Paragraph from 'components/Paragraph';
+import ButtonLink from 'components/ButtonLink';
 
 class HomeView extends React.Component {
 	constructor(props) {
@@ -25,7 +28,7 @@ class HomeView extends React.Component {
 		this.confettiSettings = {
 			target: 'confetti-holder',
 			max: '120',
-			size: '3',
+			size: '1',
 			animate: true,
 			props: ['circle', 'square', 'triangle', 'line'],
 			colors: [[165, 104, 246], [230, 61, 135], [0, 199, 228], [253, 214, 126]],
@@ -37,6 +40,7 @@ class HomeView extends React.Component {
 	async initView() {
 		// In case you need to get view-specific data
 		const data = await getDataContentful('2EKjdmixdqVPj8IZKWqSoy');
+		console.log(data);
 
 		await (() => {
 			this.setState({
@@ -46,7 +50,7 @@ class HomeView extends React.Component {
 		})();
 
 		let confetti = new ConfettiGenerator(this.confettiSettings);
-		confetti.render();
+		// confetti.render();
 	}
 
 	async componentDidMount() {
@@ -54,13 +58,25 @@ class HomeView extends React.Component {
 	}
 
 	render() {
-		return (
-			<HomeViewStyled title="❤️ Välkommen">
-				{this.state.isLoading && <Loader />}
-				{!this.state.isLoading && <Header img={this.state.data.headerImage} />}
-				<canvas id="confetti-holder"></canvas>
-			</HomeViewStyled>
-		);
+		const { data } = this.state;
+		if (this.state.isLoading) {
+			return <Loader />;
+		} else {
+			return (
+				<HomeViewStyled title="❤️ Välkommen">
+					<Header img={data.headerImage} text={data.introText} />
+					<Waves src="/assets/gfx/waves.svg"></Waves>
+					<BlogInfo>
+						<H2>{data.break1Header}</H2>
+						<Paragraph>{data.break1Text}</Paragraph>
+						<ButtonLink className="Left" to={data.break1ButtonUrl}>
+							{data.break1ButtonText}
+						</ButtonLink>
+					</BlogInfo>
+					<canvas id="confetti-holder"></canvas>
+				</HomeViewStyled>
+			);
+		}
 	}
 }
 

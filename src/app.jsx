@@ -11,6 +11,7 @@ import getLocale from 'helpers/utils/getLocale.mjs';
 import Debug from 'components/Debug';
 import InstallBanner from 'components/InstallBanner';
 import ConsentModal from 'components/ConsentModal';
+import Menu from 'components/Menu/index';
 
 import getInitialState from 'state/getInitialState.mjs';
 
@@ -114,7 +115,7 @@ class App extends React.Component {
 						close={this.closeConsentModal}
 					/>
 				)} */}
-
+				<Menu></Menu>
 				<Routes appState={this.state.appState} data={this.state.data} />
 			</>
 		);
