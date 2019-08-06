@@ -88,7 +88,9 @@ class HomeView extends React.Component {
 									<Mega className="Mega" offwhite>
 										{item.header}
 									</Mega>
-									<Paragraph>{item.text}</Paragraph>
+									<Paragraph className="MegaText" noBot>
+										{item.text}
+									</Paragraph>
 									<img src={`/assets/gfx/${item.img}.svg`}></img>
 								</MegaBox>
 							);

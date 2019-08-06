@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import View from 'containers/View';
 
 import colors from 'tokens/colors.mjs';
+import breakpoints from 'helpers/constants/breakpoints.mjs';
 
 export const HomeViewStyled = styled(View)`
 	canvas {
@@ -19,7 +20,11 @@ export const Waves = styled.img`
 	position: relative;
 	z-index: -10;
 	width: 100%;
-	margin-top: -5%;
+	min-width: 1400px;
+	margin-top: -160px;
+	@media all and (min-width: ${breakpoints.tablet}) {
+		margin-top: -100px;
+	}
 `;
 
 export const BlogInfo = styled.div`
@@ -53,20 +58,45 @@ export const MegaSection = styled.div`
 
 export const MegaBox = styled.div`
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
 	position: relative;
 	padding: 100px 10px;
+	@media all and (min-width: ${breakpoints.tablet}) {
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
 	.Mega {
-		position: absolute;
 		left: 0;
 		top: 0;
 		z-index: -1;
+		flex: 1;
+		text-align: right;
+		@media all and (min-width: ${breakpoints.tablet}) {
+			position: absolute;
+		}
+	}
+	.MegaText {
+		margin-top: 20px;
+		@media all and (min-width: ${breakpoints.tablet}) {
+			margin-top: 0;
+		}
 	}
 	img {
-		width: 180px;
+		width: 60px;
 		height: auto;
-		margin-left: 40px;
 		object-fit: contain;
 		object-position: center top;
+		order: -1;
+		margin-right: 20px;
+		@media all and (min-width: ${breakpoints.tablet}) {
+			width: 180px;
+			flex: initial;
+			margin-left: 40px;
+			width: initial;
+			order: initial;
+		}
 	}
 	&:nth-child(odd) {
 		.Mega {

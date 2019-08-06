@@ -3033,12 +3033,18 @@
 											{
 												"blendMode": "NORMAL",
 												"type": "SOLID",
-												"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
 											}
 										],
 										"strokes": [],
 										"strokeWeight": 1,
 										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:22" },
 										"effects": [],
 										"characters": "Glada små uppdateringar",
 										"style": {
@@ -3054,8 +3060,7 @@
 											"lineHeightUnit": "INTRINSIC_%"
 										},
 										"characterStyleOverrides": [],
-										"styleOverrideTable": {},
-										"styles": { "text": "36:22" }
+										"styleOverrideTable": {}
 									},
 									{
 										"id": "36:18",
@@ -3068,12 +3073,18 @@
 											{
 												"blendMode": "NORMAL",
 												"type": "SOLID",
-												"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
 											}
 										],
 										"strokes": [],
 										"strokeWeight": 1,
 										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1" },
 										"effects": [],
 										"characters": "Vill du hålla dig uppdaterad? Se till att skriva upp dig för att få höra från mig. Mail kommer ungefär en gång i månaden och används endast för att skicka nyheter från mig.",
 										"style": {
@@ -5955,7 +5966,7 @@
 								"name": "MegaMobile",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": -257, "y": 262, "width": 238, "height": 132 },
+								"absoluteBoundingBox": { "x": -257, "y": 323, "width": 174, "height": 90 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -5973,11 +5984,11 @@
 									"fontFamily": "Poppins",
 									"fontPostScriptName": "Poppins-Bold",
 									"fontWeight": 700,
-									"fontSize": 80,
+									"fontSize": 60,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
 									"letterSpacing": 0,
-									"lineHeightPx": 93.75,
+									"lineHeightPx": 70.3125,
 									"lineHeightPercent": 100,
 									"lineHeightUnit": "INTRINSIC_%"
 								},
@@ -7433,7 +7444,7 @@
 		}
 	},
 	"name": "Psykolog Jenny",
-	"lastModified": "2019-07-29T19:26:23.532609Z",
-	"thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/8ee44bca-4fe4-4fee-b7a8-b2d32f427bf7?Expires=1565568000&Signature=E3LI9bVcR2rx~JI-~VsTppmuVaPCSMIpJYErKkQrjpUC6V8bM2V0n2oW0sJY5mYD3uf3xkPr8VQ1WmdnbFd0ynKSQ6qcJn6cmzSQtmAYDy8P16LKnppX2EVJJTh~gLHyzZJ7iyhrsq7NaV7AaZBnpXfN-Myi5kmKq4lumPpcEdEXJu5nasVRKZzEP5WM34y1UBfLobTYmuC2ngTTPguXBIrDIiNQq4NLs4V67P36AL1I8niOcMAfPzj6oi-ksoDhKyYj3p8c~kUwIkapFFommvASGBgK-cFhRYuJKluYDWhOf67bWxwBSIHXQv4TYCMeGmRs59UbTwHL7mmZuRkwzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-	"version": "155186170"
+	"lastModified": "2019-08-06T11:08:21.347156Z",
+	"thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/8669ab2b-d475-4812-a3b2-32eb466037f3?Expires=1566172800&Signature=dy4OYzO5dzeaz9N~3xnhVmREKxOqo6jOvZ1yudqi1bZgaRdwomu-D7O-BKfo8iEJK1Tv9FflCYbvdK0Gb4lzD3UJS6QLFYlS0MGGItXzQ4oY6Rv9rS71JbMg0~0N7QV5~8qYHHQyXV0kkCfW1Tj~O78Pr1PagIUkX3aHAKA32kuxxPAjl5v0EH7SBsCUKVe0-owk9cWv-YsbM~DNMmFknQbRKbJ0iYbtKBkVXdC0WWYXh9SnsHWxn85pik0mWE5As4aZDJjnLL3VgdL6TdNPZZsP8uh3rXNdgJUs4n2uFpx3qMkmjTHFvK~WjcFCGXA5CPzyRsoxPMW6RMTnfcMEQg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+	"version": "157999287"
 }

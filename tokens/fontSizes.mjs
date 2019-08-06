@@ -5,7 +5,7 @@ const fontSizes = {
 	h3mobile: '1.25rem',
 	h2mobile: '2rem',
 	h1mobile: '2.5rem',
-	megamobile: '5rem',
+	megamobile: '3.75rem',
 	s: '1rem',
 	m: '1rem',
 	l: '1.25rem',
