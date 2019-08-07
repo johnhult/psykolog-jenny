@@ -110,3 +110,14 @@ export const MegaBox = styled.div`
 		}
 	}
 `;
+
+export const Subscribe = styled.div`
+	padding: 100px 5%;
+	background: linear-gradient(to bottom right, #ffedbc, #ed4264);
+	text-align: center;
+`;
+
+export const SubscribeCenter = styled.div`
+	max-width: 1100px;
+	margin: 0 auto;
+`;

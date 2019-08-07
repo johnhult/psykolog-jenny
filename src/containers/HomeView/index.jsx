@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import ConfettiGenerator from 'confetti-js';
+import Mailchimp from 'react-mailchimp-form';
 
 import Loader from 'components/Loader';
 import Header from 'compositions/Header';
@@ -11,7 +12,15 @@ import Paragraph from 'components/Paragraph';
 import ButtonLink from 'components/ButtonLink';
 import Mega from 'components/Mega/index.jsx';
 
-import { HomeViewStyled, Waves, BlogInfo, MegaSection, MegaBox } from './style.jsx';
+import {
+	HomeViewStyled,
+	Waves,
+	BlogInfo,
+	MegaSection,
+	MegaBox,
+	Subscribe,
+	SubscribeCenter
+} from './style.jsx';
 
 class HomeView extends React.Component {
 	constructor(props) {
@@ -96,6 +105,30 @@ class HomeView extends React.Component {
 							);
 						})}
 					</MegaSection>
+					<Subscribe>
+						<SubscribeCenter>
+							<H2 mBot={20}>{data.break2Header}</H2>
+							<Paragraph>{data.break2Text}</Paragraph>
+							<Mailchimp
+								className="MailChimpForm"
+								action="https://gmail.us3.list-manage.com/subscribe/post?u=d2f2773ed07d4d31c91edb33d&amp;id=3d1a1f19e5"
+								fields={[
+									{
+										name: 'EMAIL',
+										placeholder: 'Email',
+										type: 'email',
+										required: true
+									},
+									{
+										name: 'NAME',
+										placeholder: 'Namn',
+										type: 'text',
+										required: true
+									}
+								]}
+							/>
+						</SubscribeCenter>
+					</Subscribe>
 					<canvas id="confetti-holder"></canvas>
 				</HomeViewStyled>
 			);
