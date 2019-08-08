@@ -4,10 +4,10 @@ import { Helmet } from 'react-helmet';
 
 import ViewStyled from './ViewStyled';
 
-const View = props => (
+const View = ({ title, ...props }) => (
 	<ViewStyled {...props}>
 		<Helmet>
-			<title>{props.title}</title>
+			<title>{title}</title>
 			<link rel="canonical" href={window.location.href} />
 		</Helmet>
 		{props.children}

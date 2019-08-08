@@ -1,40 +1,50 @@
 import styled from 'styled-components';
 
 import fontSizes from 'tokens/fontSizes.mjs';
-import fontFamilies from 'tokens/fontFamilies.mjs';
-import spacing from 'tokens/spacing.mjs';
+import fontWeights from 'tokens/fontWeights.mjs';
 import colors from 'tokens/colors.mjs';
+import breakpoints from 'helpers/constants/breakpoints.mjs';
 
 const ButtonStyled = styled.button`
 	appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
-
-	width: 100%;
-	display: block;
-	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border: 0;
-	border-radius: 0.5rem;
+	border-radius: 500px;
+	height: ${({ h }) => (h ? `${h}px` : null)};
+	width: ${({ w }) => (w ? `${w}px` : null)};
 
-	font-size: ${fontSizes.m};
-	font-family: ${fontFamilies.fontSemibold};
+	font-size: ${fontSizes.button};
+	font-weight: ${fontWeights.bold};
 	color: ${colors.white};
-	background-color: ${colors.blue};
-	padding: ${spacing.tiny} ${spacing.small};
-	margin: 0 0 ${spacing.small} 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: linear-gradient(to bottom right, #ffedbc, #ed4264);
+	background: ${({ secondary }) => (secondary ? colors.secondary : null)};
+	padding: ${({ h }) => (h ? 0 : '10px')} ${({ w }) => (w ? 0 : '30px')};
 	cursor: pointer;
-	transition: 0.1s;
-
-	&:hover {
-		box-shadow: 0 0.5rem 1rem -0.5rem ${colors.gray3};
-		transition: 0.2s;
+	transition: 0.2s;
+	@media all and (min-width: ${breakpoints.tablet}) {
+		font-size: ${fontSizes.button};
 	}
 
-	&:disabled {
+	&:focus {
+		outline: 0;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+	}
+
+	&:hover:not(:disabled) {
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+	}
+
+	&:disabled:not(.Loading) {
 		cursor: not-allowed;
 		border: 0;
-		color: ${colors.gray1};
-		background-color: ${colors.red};
+		color: ${colors.offwhite};
+		background-color: ${colors.grey};
 		transition: 0.2s;
 	}
 `;

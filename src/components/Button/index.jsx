@@ -3,8 +3,13 @@ import PropTypes from 'prop-types';
 
 import ButtonStyled from './ButtonStyled';
 
-const Button = props => (
-	<ButtonStyled {...props} onClick={e => props.onClick(e)} disabled={props.disabled}>
+const Button = ({ loading, ...props }) => (
+	<ButtonStyled
+		{...props}
+		className={`${props.className ? props.className : ''} ${loading ? 'Loading' : ''}`}
+		onClick={e => (props.onClick ? props.onClick(e) : null)}
+		disabled={props.disabled}
+	>
 		{props.children}
 	</ButtonStyled>
 );

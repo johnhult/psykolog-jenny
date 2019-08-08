@@ -7,12 +7,13 @@ import breakpoints from 'helpers/constants/breakpoints.mjs';
 
 export const HomeViewStyled = styled(View)`
 	canvas {
-		position: fixed;
+		position: absolute;
 		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
 		pointer-events: none;
+		z-index: -1;
 	}
 `;
 
@@ -62,7 +63,7 @@ export const MegaBox = styled.div`
 	flex-wrap: wrap;
 	align-items: center;
 	position: relative;
-	padding: 100px 10px;
+	padding: 100px 0;
 	@media all and (min-width: ${breakpoints.tablet}) {
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -112,12 +113,73 @@ export const MegaBox = styled.div`
 `;
 
 export const Subscribe = styled.div`
-	padding: 100px 5%;
+	padding: 100px 5% 80px;
 	background: linear-gradient(to bottom right, #ffedbc, #ed4264);
 	text-align: center;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+
+	.Break2Text {
+		margin-bottom: 60px;
+	}
+
+	form {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		@media all and (min-width: ${breakpoints.desktop}) {
+			flex-direction: row;
+		}
+		.InputWrapper {
+			width: 300px;
+			height: 40px;
+			@media all and (min-width: ${breakpoints.desktop}) {
+				margin-right: 20px;
+			}
+		}
+		.InputWrapper,
+		button {
+			margin-bottom: 30px;
+		}
+		span {
+			width: 100%;
+			color: ${colors.white};
+		}
+	}
 `;
 
 export const SubscribeCenter = styled.div`
 	max-width: 1100px;
 	margin: 0 auto;
+`;
+
+export const Posts = styled.div`
+	max-width: calc(1100px + 10%);
+	padding: 100px 5%;
+	margin: 0 auto;
+	.Flex {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		@media all and (min-width: ${breakpoints.tablet}) {
+			flex-direction: row;
+		}
+		h2 {
+			margin-right: 20px;
+		}
+		a {
+			align-self: flex-end;
+			@media all and (min-width: ${breakpoints.tablet}) {
+				align-self: initial;
+			}
+		}
+	}
+`;
+
+export const PostBox = styled.div`
+	display: flex;
 `;

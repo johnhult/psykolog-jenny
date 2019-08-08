@@ -48,7 +48,7 @@ export const BlobImg = styled.img`
 	width: auto;
 	height: 100%;
 	z-index: -1;
-	/* transform: rotate(90deg); */
+	transform: translate3d(0, 0, 1);
 	max-width: initial;
 	@media all and (min-width: ${breakpoints.tablet}) {
 		width: 80%;

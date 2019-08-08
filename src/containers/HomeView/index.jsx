@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import ConfettiGenerator from 'confetti-js';
-import Mailchimp from 'react-mailchimp-form';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import Loader from 'components/Loader';
 import Header from 'compositions/Header';
@@ -11,6 +11,8 @@ import H2 from 'components/H2';
 import Paragraph from 'components/Paragraph';
 import ButtonLink from 'components/ButtonLink';
 import Mega from 'components/Mega/index.jsx';
+import Button from 'components/Button';
+import Input from 'components/Input';
 
 import {
 	HomeViewStyled,
@@ -19,8 +21,11 @@ import {
 	MegaSection,
 	MegaBox,
 	Subscribe,
-	SubscribeCenter
+	SubscribeCenter,
+	Posts,
+	PostBox
 } from './style.jsx';
+import H3 from '../../components/H3/index.jsx';
 
 class HomeView extends React.Component {
 	constructor(props) {
@@ -30,26 +35,38 @@ class HomeView extends React.Component {
 			appState: props.appState,
 
 			// Data from backend(s)
-			data: [],
+			data: null,
 
 			// Events
 			isLoading: true
 		};
 		this.confettiSettings = {
 			target: 'confetti-holder',
-			max: '120',
+			max: '60',
 			size: '1',
 			animate: true,
 			props: ['circle', 'square', 'triangle', 'line'],
 			colors: [[165, 104, 246], [230, 61, 135], [0, 199, 228], [253, 214, 126]],
 			clock: '40',
-			rotate: true
+			rotate: true,
+			width: 0,
+			height: 0
 		};
+
+		this.subscribe = React.createRef();
+		this.confetti;
+		this.resize;
 	}
 
 	async initView() {
 		// In case you need to get view-specific data
-		const data = await getDataContentful('2EKjdmixdqVPj8IZKWqSoy');
+		const promises = [
+			getDataContentful('2EKjdmixdqVPj8IZKWqSoy'),
+			getDataContentful('blogPost', true)
+		];
+		const result = await Promise.all(promises);
+		const data = { blogPosts: result[1], ...result[0] };
+
 		console.log(data);
 
 		await (() => {
@@ -58,14 +75,40 @@ class HomeView extends React.Component {
 				isLoading: false
 			});
 		})();
-
-		let confetti = new ConfettiGenerator(this.confettiSettings);
-		// confetti.render();
+		setTimeout(() => {
+			this.confettiSettings.width = this.subscribe.current.clientWidth;
+			this.confettiSettings.height = this.subscribe.current.clientHeight * 2;
+			this.confetti = new ConfettiGenerator(this.confettiSettings);
+			this.confetti.render();
+		}, 500);
 	}
 
 	async componentDidMount() {
 		await this.initView();
+		window.addEventListener('resize', this.resize);
 	}
+
+	componentWillUnmount() {
+		window.removeEventListener('resize', this.resize);
+	}
+
+	resize = () => {
+		clearTimeout(this.resize);
+		const doneResizing = () => {
+			this.confetti.clear();
+			this.confettiSettings.width = this.subscribe.current.clientWidth;
+			this.confettiSettings.height = this.subscribe.current.clientHeight * 2;
+			this.confetti = new ConfettiGenerator(this.confettiSettings);
+			this.confetti.render();
+		};
+		this.resize = setTimeout(doneResizing, 200);
+	};
+
+	sendSubscribe = (email, name, subscribe) => {
+		if (email.value && name.value && email.value.indexOf('@') > -1) {
+			subscribe({ EMAIL: email.value, NAME: name.value });
+		}
+	};
 
 	render() {
 		const { data } = this.state;
@@ -76,6 +119,7 @@ class HomeView extends React.Component {
 					{ header: data.mega3Header, text: data.mega3Text, img: 'flame' }
 			  ]
 			: [];
+
 		if (this.state.isLoading) {
 			return <Loader />;
 		} else {
@@ -105,31 +149,72 @@ class HomeView extends React.Component {
 							);
 						})}
 					</MegaSection>
-					<Subscribe>
+					<Subscribe ref={this.subscribe}>
 						<SubscribeCenter>
-							<H2 mBot={20}>{data.break2Header}</H2>
-							<Paragraph>{data.break2Text}</Paragraph>
-							<Mailchimp
-								className="MailChimpForm"
-								action="https://gmail.us3.list-manage.com/subscribe/post?u=d2f2773ed07d4d31c91edb33d&amp;id=3d1a1f19e5"
-								fields={[
-									{
-										name: 'EMAIL',
-										placeholder: 'Email',
-										type: 'email',
-										required: true
-									},
-									{
-										name: 'NAME',
-										placeholder: 'Namn',
-										type: 'text',
-										required: true
-									}
-								]}
-							/>
+							<H2 mBot={20}>{data.break2Header} 💌</H2>
+							<Paragraph className="Break2Text">{data.break2Text}</Paragraph>
+							<MailchimpSubscribe
+								url="https://gmail.us3.list-manage.com/subscribe/post?u=d2f2773ed07d4d31c91edb33d&amp;id=3d1a1f19e5"
+								render={({ subscribe, status, message }) => (
+									<form
+										onSubmit={e => {
+											e.preventDefault();
+											this.sendSubscribe(e.target.email, e.target.name, subscribe);
+										}}
+									>
+										<Input type="email" name="email" label="Email" required />
+										<Input type="text" name="name" label="Förnamn" required />
+										<Button
+											h={40}
+											w={220}
+											secondary
+											type="submit"
+											disabled={status === 'success' || status === 'sending'}
+											loading={status === 'sending'}
+										>
+											{status === 'sending'
+												? 'Laddar 💌'
+												: status === 'success'
+												? 'Tack'
+												: 'Prenumerera'}
+										</Button>
+										{(status === 'error' || status === 'success') && (
+											<span className={`${status === 'error' ? 'Error' : 'Success'}`}>
+												{status === 'error' && '😱 Något gick fel - '}
+												{status === 'success' && 'Tack för att du prenumererar! 🙌'}
+												{status === 'error' && (
+													<span dangerouslySetInnerHTML={{ __html: message }}></span>
+												)}
+											</span>
+										)}
+									</form>
+								)}
+							></MailchimpSubscribe>
 						</SubscribeCenter>
+						<canvas
+							id="confetti-holder"
+							width={this.subscribe.current && this.subscribe.current.width}
+							height={this.subscribe.current && this.subscribe.current.height}
+						></canvas>
 					</Subscribe>
-					<canvas id="confetti-holder"></canvas>
+
+					<Posts>
+						<div className="Flex">
+							<H2>{data.blogHeader}</H2>
+							<ButtonLink to={data.blogButtonUrl}>{data.blogButton}</ButtonLink>
+						</div>
+						<PostBox>
+							{data.blogPosts.map((post, index) => {
+								return (
+									<div key={`Post-${index}`}>
+										<img src={post.mainImage.file.url}></img>
+										<H3>{post.title}</H3>
+										<Paragraph>{post.subHeader}</Paragraph>
+									</div>
+								);
+							})}
+						</PostBox>
+					</Posts>
 				</HomeViewStyled>
 			);
 		}

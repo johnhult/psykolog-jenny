@@ -1245,7 +1245,7 @@
 								"blendMode": "PASS_THROUGH",
 								"absoluteBoundingBox": {
 									"x": 4009.579345703125,
-									"y": 3088.579833984375,
+									"y": 3268.579833984375,
 									"width": 1327.114501953125,
 									"height": 848.0680541992188
 								},
@@ -1525,7 +1525,7 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4060,
-													"y": 2815,
+													"y": 2995,
 													"width": 387,
 													"height": 680
 												},
@@ -1559,7 +1559,7 @@
 												"name": "Varför Ron Swanson är en fantastisk chef",
 												"type": "TEXT",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4087, "y": 3081, "width": 322, "height": 78 },
+												"absoluteBoundingBox": { "x": 4087, "y": 3261, "width": 322, "height": 72 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -1596,9 +1596,9 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4087,
-													"y": 3177,
+													"y": 3357,
 													"width": 322,
-													"height": 231
+													"height": 210
 												},
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
@@ -1615,8 +1615,8 @@
 												"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
 												"style": {
 													"fontFamily": "Poppins",
-													"fontPostScriptName": "Poppins-Light",
-													"fontWeight": 300,
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
 													"fontSize": 20,
 													"textAlignHorizontal": "LEFT",
 													"textAlignVertical": "TOP",
@@ -1636,7 +1636,7 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4082,
-													"y": 2839,
+													"y": 3019,
 													"width": 343,
 													"height": 220
 												},
@@ -1668,7 +1668,7 @@
 														"blendMode": "PASS_THROUGH",
 														"absoluteBoundingBox": {
 															"x": 4129,
-															"y": 3428,
+															"y": 3608,
 															"width": 250,
 															"height": 50
 														},
@@ -1718,10 +1718,10 @@
 														"type": "TEXT",
 														"blendMode": "PASS_THROUGH",
 														"absoluteBoundingBox": {
-															"x": 4178,
-															"y": 3440,
-															"width": 152,
-															"height": 26
+															"x": 4180,
+															"y": 3621,
+															"width": 148,
+															"height": 24
 														},
 														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 														"fills": [
@@ -1754,7 +1754,7 @@
 														"styleOverrideTable": {}
 													}
 												],
-												"absoluteBoundingBox": { "x": 4129, "y": 3428, "width": 250, "height": 50 },
+												"absoluteBoundingBox": { "x": 4129, "y": 3608, "width": 250, "height": 50 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"clipsContent": false,
 												"background": [],
@@ -1763,7 +1763,7 @@
 												"componentId": "36:60"
 											}
 										],
-										"absoluteBoundingBox": { "x": 4060, "y": 2815, "width": 387, "height": 663 },
+										"absoluteBoundingBox": { "x": 4060, "y": 2995, "width": 387, "height": 663 },
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"clipsContent": false,
 										"background": [],
@@ -1784,7 +1784,7 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4468,
-													"y": 2815,
+													"y": 2995,
 													"width": 387,
 													"height": 680
 												},
@@ -1818,7 +1818,7 @@
 												"name": "Ät bra och skapa lugn före mötet",
 												"type": "TEXT",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4495, "y": 3081, "width": 322, "height": 78 },
+												"absoluteBoundingBox": { "x": 4495, "y": 3261, "width": 322, "height": 72 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -1855,9 +1855,9 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4495,
-													"y": 3177,
+													"y": 3357,
 													"width": 322,
-													"height": 231
+													"height": 210
 												},
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
@@ -1874,8 +1874,8 @@
 												"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
 												"style": {
 													"fontFamily": "Poppins",
-													"fontPostScriptName": "Poppins-Light",
-													"fontWeight": 300,
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
 													"fontSize": 20,
 													"textAlignHorizontal": "LEFT",
 													"textAlignVertical": "TOP",
@@ -1895,7 +1895,7 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4490,
-													"y": 2839,
+													"y": 3019,
 													"width": 343,
 													"height": 220
 												},
@@ -1927,7 +1927,7 @@
 														"blendMode": "PASS_THROUGH",
 														"absoluteBoundingBox": {
 															"x": 4537,
-															"y": 3428,
+															"y": 3608,
 															"width": 250,
 															"height": 50
 														},
@@ -1977,10 +1977,10 @@
 														"type": "TEXT",
 														"blendMode": "PASS_THROUGH",
 														"absoluteBoundingBox": {
-															"x": 4586,
-															"y": 3440,
-															"width": 152,
-															"height": 26
+															"x": 4588,
+															"y": 3621,
+															"width": 148,
+															"height": 24
 														},
 														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 														"fills": [
@@ -2013,7 +2013,7 @@
 														"styleOverrideTable": {}
 													}
 												],
-												"absoluteBoundingBox": { "x": 4537, "y": 3428, "width": 250, "height": 50 },
+												"absoluteBoundingBox": { "x": 4537, "y": 3608, "width": 250, "height": 50 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"clipsContent": false,
 												"background": [],
@@ -2022,7 +2022,7 @@
 												"componentId": "36:60"
 											}
 										],
-										"absoluteBoundingBox": { "x": 4468, "y": 2815, "width": 387, "height": 663 },
+										"absoluteBoundingBox": { "x": 4468, "y": 2995, "width": 387, "height": 663 },
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"clipsContent": false,
 										"background": [],
@@ -2043,7 +2043,7 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4876,
-													"y": 2815,
+													"y": 2995,
 													"width": 387,
 													"height": 680
 												},
@@ -2078,7 +2078,7 @@
 												"name": "Gör din hemstad till något nytt",
 												"type": "TEXT",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4903, "y": 3081, "width": 322, "height": 78 },
+												"absoluteBoundingBox": { "x": 4903, "y": 3261, "width": 322, "height": 72 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -2115,9 +2115,9 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4903,
-													"y": 3177,
+													"y": 3357,
 													"width": 322,
-													"height": 231
+													"height": 210
 												},
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
@@ -2134,8 +2134,8 @@
 												"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
 												"style": {
 													"fontFamily": "Poppins",
-													"fontPostScriptName": "Poppins-Light",
-													"fontWeight": 300,
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
 													"fontSize": 20,
 													"textAlignHorizontal": "LEFT",
 													"textAlignVertical": "TOP",
@@ -2155,7 +2155,7 @@
 												"blendMode": "PASS_THROUGH",
 												"absoluteBoundingBox": {
 													"x": 4898,
-													"y": 2839,
+													"y": 3019,
 													"width": 343,
 													"height": 220
 												},
@@ -2187,7 +2187,7 @@
 														"blendMode": "PASS_THROUGH",
 														"absoluteBoundingBox": {
 															"x": 4945,
-															"y": 3428,
+															"y": 3608,
 															"width": 250,
 															"height": 50
 														},
@@ -2237,10 +2237,10 @@
 														"type": "TEXT",
 														"blendMode": "PASS_THROUGH",
 														"absoluteBoundingBox": {
-															"x": 4994,
-															"y": 3440,
-															"width": 152,
-															"height": 26
+															"x": 4996,
+															"y": 3621,
+															"width": 148,
+															"height": 24
 														},
 														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 														"fills": [
@@ -2273,7 +2273,7 @@
 														"styleOverrideTable": {}
 													}
 												],
-												"absoluteBoundingBox": { "x": 4945, "y": 3428, "width": 250, "height": 50 },
+												"absoluteBoundingBox": { "x": 4945, "y": 3608, "width": 250, "height": 50 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"clipsContent": false,
 												"background": [],
@@ -2282,7 +2282,7 @@
 												"componentId": "36:60"
 											}
 										],
-										"absoluteBoundingBox": { "x": 4876, "y": 2815, "width": 387, "height": 663 },
+										"absoluteBoundingBox": { "x": 4876, "y": 2995, "width": 387, "height": 663 },
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"clipsContent": false,
 										"background": [],
@@ -2291,7 +2291,7 @@
 										"componentId": "36:79"
 									}
 								],
-								"absoluteBoundingBox": { "x": 4060, "y": 2815, "width": 1203, "height": 663 },
+								"absoluteBoundingBox": { "x": 4060, "y": 2995, "width": 1203, "height": 663 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -2370,8 +2370,8 @@
 								"characters": "Text om dig. IndroduktionLegitimerad psykolog som arbetat inom olika kategorier inom psykologi. Har arbetat med KBT (Kognitiv Beteende Terapi), varit organisationskonsult och även hållt i föreläsningar.",
 								"style": {
 									"fontFamily": "Poppins",
-									"fontPostScriptName": "Poppins-Light",
-									"fontWeight": 300,
+									"fontPostScriptName": "Poppins-Regular",
+									"fontWeight": 400,
 									"fontSize": 20,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
@@ -2962,7 +2962,7 @@
 										"name": "Rectangle 7",
 										"type": "RECTANGLE",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 3945, "y": 2152, "width": 1440, "height": 459 },
+										"absoluteBoundingBox": { "x": 3945, "y": 2152, "width": 1440, "height": 586 },
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"fills": [
 											{
@@ -3006,7 +3006,7 @@
 										"name": "Screen Shot 2019-06-30 at 18.39",
 										"type": "RECTANGLE",
 										"blendMode": "DARKEN",
-										"absoluteBoundingBox": { "x": 3945, "y": 2152, "width": 1440, "height": 459 },
+										"absoluteBoundingBox": { "x": 3945, "y": 2152, "width": 1440, "height": 586 },
 										"preserveRatio": true,
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"fills": [
@@ -3027,7 +3027,12 @@
 										"name": "Glada små uppdateringar",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4428, "y": 2234, "width": 474, "height": 56 },
+										"absoluteBoundingBox": {
+											"x": 4428,
+											"y": 2256.6884765625,
+											"width": 474,
+											"height": 71.49455261230469
+										},
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"fills": [
 											{
@@ -3067,7 +3072,12 @@
 										"name": "Vill du hålla dig uppdaterad? Se till att skriva upp dig för att få höra från mig. Mail kommer ungefär en gång i månaden och används endast för att skicka nyheter från mig.",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4295, "y": 2300, "width": 741, "height": 117 },
+										"absoluteBoundingBox": {
+											"x": 4295,
+											"y": 2340.949951171875,
+											"width": 741,
+											"height": 149.37254333496094
+										},
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"fills": [
 											{
@@ -3103,7 +3113,7 @@
 										"styleOverrideTable": {}
 									}
 								],
-								"absoluteBoundingBox": { "x": 3945, "y": 2152, "width": 1440, "height": 459 },
+								"absoluteBoundingBox": { "x": 3945, "y": 2152, "width": 1440, "height": 586 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -3183,8 +3193,8 @@
 										"characters": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
 										"style": {
 											"fontFamily": "Poppins",
-											"fontPostScriptName": "Poppins-Light",
-											"fontWeight": 300,
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
 											"fontSize": 20,
 											"textAlignHorizontal": "LEFT",
 											"textAlignVertical": "TOP",
@@ -3457,8 +3467,8 @@
 										"characters": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
 										"style": {
 											"fontFamily": "Poppins",
-											"fontPostScriptName": "Poppins-Light",
-											"fontWeight": 300,
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
 											"fontSize": 20,
 											"textAlignHorizontal": "LEFT",
 											"textAlignVertical": "TOP",
@@ -3736,8 +3746,8 @@
 										"characters": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
 										"style": {
 											"fontFamily": "Poppins",
-											"fontPostScriptName": "Poppins-Light",
-											"fontWeight": 300,
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
 											"fontSize": 20,
 											"textAlignHorizontal": "LEFT",
 											"textAlignVertical": "TOP",
@@ -3958,82 +3968,188 @@
 								"blendMode": "PASS_THROUGH",
 								"children": [
 									{
-										"id": "36:24",
-										"name": "Rectangle 6",
-										"type": "RECTANGLE",
+										"id": "111:3",
+										"name": "Group 2",
+										"type": "GROUP",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4359, "y": 2449, "width": 613, "height": 60 },
+										"children": [
+											{
+												"id": "36:24",
+												"name": "Rectangle 6",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 4182, "y": 2477, "width": 309, "height": 40 },
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "stroke": "34:12" },
+												"effects": [],
+												"cornerRadius": 40,
+												"rectangleCornerRadii": [40, 40, 40, 40]
+											},
+											{
+												"id": "36:25",
+												"name": "Email",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 4213.7646484375,
+													"y": 2482,
+													"width": 88.54444122314453,
+													"height": 30
+												},
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:9", "text": "36:23" },
+												"effects": [],
+												"characters": "Email",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											}
+										],
+										"absoluteBoundingBox": { "x": 4182, "y": 2477, "width": 309, "height": 40 },
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
-										"fills": [
-											{
-												"blendMode": "NORMAL",
-												"type": "SOLID",
-												"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
-											}
-										],
-										"strokes": [
-											{
-												"blendMode": "NORMAL",
-												"type": "SOLID",
-												"color": {
-													"r": 0.15656250715255737,
-													"g": 0.6311209201812744,
-													"b": 0.6958333253860474,
-													"a": 1
-												}
-											}
-										],
-										"strokeWeight": 1,
-										"strokeAlign": "INSIDE",
-										"styles": { "stroke": "34:12" },
-										"effects": [],
-										"cornerRadius": 40,
-										"rectangleCornerRadii": [40, 40, 40, 40]
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": []
 									},
 									{
-										"id": "36:25",
-										"name": "Email",
-										"type": "TEXT",
+										"id": "111:2",
+										"name": "Group",
+										"type": "GROUP",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": {
-											"x": 4390.7646484375,
-											"y": 2459,
-											"width": 88.54444122314453,
-											"height": 39
-										},
-										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
-										"fills": [
+										"children": [
 											{
-												"blendMode": "NORMAL",
-												"type": "SOLID",
-												"color": {
-													"r": 0.7250000238418579,
-													"g": 0.7250000238418579,
-													"b": 0.7250000238418579,
-													"a": 1
-												}
+												"id": "111:0",
+												"name": "Rectangle 6.1",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 4510, "y": 2477, "width": 324, "height": 40 },
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "stroke": "34:12" },
+												"effects": [],
+												"cornerRadius": 40,
+												"rectangleCornerRadii": [40, 40, 40, 40]
+											},
+											{
+												"id": "111:1",
+												"name": "Name",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 4541.7646484375,
+													"y": 2482,
+													"width": 88.54444122314453,
+													"height": 30
+												},
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:9", "text": "36:23" },
+												"effects": [],
+												"characters": "Name",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
 											}
 										],
-										"strokes": [],
-										"strokeWeight": 1,
-										"strokeAlign": "OUTSIDE",
-										"styles": { "fill": "34:9" },
-										"effects": [],
-										"characters": "Email",
-										"style": {
-											"fontFamily": "Poppins",
-											"fontPostScriptName": "Poppins-Regular",
-											"fontWeight": 400,
-											"fontSize": 24,
-											"textAlignHorizontal": "LEFT",
-											"textAlignVertical": "TOP",
-											"letterSpacing": 0,
-											"lineHeightPx": 28.125,
-											"lineHeightPercent": 100,
-											"lineHeightUnit": "INTRINSIC_%"
-										},
-										"characterStyleOverrides": [],
-										"styleOverrideTable": {}
+										"absoluteBoundingBox": { "x": 4510, "y": 2477, "width": 324, "height": 40 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": []
 									},
 									{
 										"id": "39:18",
@@ -4046,7 +4162,7 @@
 												"name": "Rectangle 6",
 												"type": "RECTANGLE",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4836, "y": 2450, "width": 135, "height": 58 },
+												"absoluteBoundingBox": { "x": 4853, "y": 2477, "width": 296, "height": 40 },
 												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 												"fills": [
 													{
@@ -4066,14 +4182,14 @@
 												"styles": { "fill": "34:12" },
 												"effects": [],
 												"cornerRadius": 40,
-												"rectangleCornerRadii": [0, 40, 40, 0]
+												"rectangleCornerRadii": [40, 40, 40, 40]
 											},
 											{
 												"id": "39:16",
 												"name": "Skicka",
 												"type": "TEXT",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4870, "y": 2466, "width": 63, "height": 26 },
+												"absoluteBoundingBox": { "x": 4970, "y": 2488, "width": 46, "height": 18 },
 												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 												"fills": [
 													{
@@ -4093,11 +4209,11 @@
 													"fontPostScriptName": "Poppins-Bold",
 													"fontWeight": 700,
 													"textCase": "UPPER",
-													"fontSize": 16,
+													"fontSize": 12,
 													"textAlignHorizontal": "LEFT",
 													"textAlignVertical": "TOP",
 													"letterSpacing": 0,
-													"lineHeightPx": 18.75,
+													"lineHeightPx": 14.0625,
 													"lineHeightPercent": 100,
 													"lineHeightUnit": "INTRINSIC_%"
 												},
@@ -4105,7 +4221,7 @@
 												"styleOverrideTable": {}
 											}
 										],
-										"absoluteBoundingBox": { "x": 4836, "y": 2450, "width": 135, "height": 58 },
+										"absoluteBoundingBox": { "x": 4853, "y": 2477, "width": 296, "height": 40 },
 										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 										"clipsContent": false,
 										"background": [],
@@ -4113,7 +4229,7 @@
 										"effects": []
 									}
 								],
-								"absoluteBoundingBox": { "x": 4359, "y": 2449, "width": 613, "height": 60 },
+								"absoluteBoundingBox": { "x": 4182, "y": 2477, "width": 967, "height": 40 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -4131,7 +4247,7 @@
 										"name": "Se alla inlägg",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4291, "y": 2739, "width": 177, "height": 39 },
+										"absoluteBoundingBox": { "x": 4291, "y": 2919, "width": 177, "height": 39 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -4177,7 +4293,7 @@
 												"name": "Vector",
 												"type": "VECTOR",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4491, "y": 2750, "width": 29, "height": 18 },
+												"absoluteBoundingBox": { "x": 4491, "y": 2930, "width": 29, "height": 18 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [],
 												"strokes": [
@@ -4198,7 +4314,7 @@
 												"effects": []
 											}
 										],
-										"absoluteBoundingBox": { "x": 4491, "y": 2750, "width": 29, "height": 18 },
+										"absoluteBoundingBox": { "x": 4491, "y": 2930, "width": 29, "height": 18 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"clipsContent": false,
 										"background": [
@@ -4214,7 +4330,7 @@
 										"componentId": "36:11"
 									}
 								],
-								"absoluteBoundingBox": { "x": 4299, "y": 2739, "width": 221, "height": 39 },
+								"absoluteBoundingBox": { "x": 4299, "y": 2919, "width": 221, "height": 39 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -4233,7 +4349,7 @@
 										"name": "Se alla videos",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4319, "y": 3672, "width": 178, "height": 39 },
+										"absoluteBoundingBox": { "x": 4319, "y": 3852, "width": 178, "height": 39 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -4279,7 +4395,7 @@
 												"name": "Vector",
 												"type": "VECTOR",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 4520, "y": 3683, "width": 29, "height": 18 },
+												"absoluteBoundingBox": { "x": 4520, "y": 3863, "width": 29, "height": 18 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [],
 												"strokes": [
@@ -4300,7 +4416,7 @@
 												"effects": []
 											}
 										],
-										"absoluteBoundingBox": { "x": 4520, "y": 3683, "width": 29, "height": 18 },
+										"absoluteBoundingBox": { "x": 4520, "y": 3863, "width": 29, "height": 18 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"clipsContent": false,
 										"background": [
@@ -4316,7 +4432,7 @@
 										"componentId": "36:11"
 									}
 								],
-								"absoluteBoundingBox": { "x": 4328, "y": 3672, "width": 221, "height": 39 },
+								"absoluteBoundingBox": { "x": 4328, "y": 3852, "width": 221, "height": 39 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -4569,7 +4685,7 @@
 								"name": "Inlägg",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": 4060, "y": 2688, "width": 1211, "height": 105 },
+								"absoluteBoundingBox": { "x": 4060, "y": 2868, "width": 1211, "height": 105 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -4609,7 +4725,7 @@
 								"name": "Videos",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": 4060, "y": 3629, "width": 230, "height": 105 },
+								"absoluteBoundingBox": { "x": 4060, "y": 3809, "width": 230, "height": 105 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -4680,7 +4796,7 @@
 										"name": "Rectangle 5",
 										"type": "RECTANGLE",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4060, "y": 3790, "width": 1211, "height": 282 },
+										"absoluteBoundingBox": { "x": 4060, "y": 3970, "width": 1211, "height": 282 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [],
 										"strokes": [],
@@ -4699,7 +4815,7 @@
 												"name": "Rectangle 4",
 												"type": "RECTANGLE",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 5014, "y": 3997, "width": 250, "height": 50 },
+												"absoluteBoundingBox": { "x": 5014, "y": 4177, "width": 250, "height": 50 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -4745,7 +4861,7 @@
 												"name": "Se video",
 												"type": "TEXT",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 5102, "y": 4009, "width": 75, "height": 26 },
+												"absoluteBoundingBox": { "x": 5102, "y": 4189, "width": 75, "height": 26 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -4777,7 +4893,7 @@
 												"styleOverrideTable": {}
 											}
 										],
-										"absoluteBoundingBox": { "x": 5014, "y": 3997, "width": 250, "height": 50 },
+										"absoluteBoundingBox": { "x": 5014, "y": 4177, "width": 250, "height": 50 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"clipsContent": false,
 										"background": [],
@@ -4790,7 +4906,7 @@
 										"name": "image",
 										"type": "RECTANGLE",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4060, "y": 3790, "width": 414, "height": 282 },
+										"absoluteBoundingBox": { "x": 4060, "y": 3970, "width": 414, "height": 282 },
 										"preserveRatio": true,
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
@@ -4811,7 +4927,7 @@
 										"name": "En tanke angående stress",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4060, "y": 3741, "width": 333, "height": 39 },
+										"absoluteBoundingBox": { "x": 4060, "y": 3921, "width": 333, "height": 39 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -4851,7 +4967,7 @@
 										"name": "I videon går jag igenom vad som kan hända om man inte ser över sitt intag av mjölkprodukter och blir således en kall människa.",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4527, "y": 3790, "width": 719, "height": 133 },
+										"absoluteBoundingBox": { "x": 4527, "y": 3970, "width": 719, "height": 133 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -4893,7 +5009,7 @@
 										"blendMode": "PASS_THROUGH",
 										"absoluteBoundingBox": {
 											"x": 4527,
-											"y": 4072,
+											"y": 4252,
 											"width": 744,
 											"height": 0.00006504254997707903
 										},
@@ -4918,7 +5034,7 @@
 										"effects": []
 									}
 								],
-								"absoluteBoundingBox": { "x": 4060, "y": 3741, "width": 1211, "height": 356 },
+								"absoluteBoundingBox": { "x": 4060, "y": 3921, "width": 1211, "height": 356 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -4937,7 +5053,7 @@
 										"name": "Rectangle 5",
 										"type": "RECTANGLE",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4060, "y": 4217, "width": 1211, "height": 282 },
+										"absoluteBoundingBox": { "x": 4060, "y": 4397, "width": 1211, "height": 282 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [],
 										"strokes": [],
@@ -4956,7 +5072,7 @@
 												"name": "Rectangle 4",
 												"type": "RECTANGLE",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 5014, "y": 4424, "width": 250, "height": 50 },
+												"absoluteBoundingBox": { "x": 5014, "y": 4604, "width": 250, "height": 50 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -5002,7 +5118,7 @@
 												"name": "Se video",
 												"type": "TEXT",
 												"blendMode": "PASS_THROUGH",
-												"absoluteBoundingBox": { "x": 5102, "y": 4436, "width": 75, "height": 26 },
+												"absoluteBoundingBox": { "x": 5102, "y": 4616, "width": 75, "height": 26 },
 												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 												"fills": [
 													{
@@ -5034,7 +5150,7 @@
 												"styleOverrideTable": {}
 											}
 										],
-										"absoluteBoundingBox": { "x": 5014, "y": 4424, "width": 250, "height": 50 },
+										"absoluteBoundingBox": { "x": 5014, "y": 4604, "width": 250, "height": 50 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"clipsContent": false,
 										"background": [],
@@ -5047,7 +5163,7 @@
 										"name": "image",
 										"type": "RECTANGLE",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4060, "y": 4217, "width": 414, "height": 282 },
+										"absoluteBoundingBox": { "x": 4060, "y": 4397, "width": 414, "height": 282 },
 										"preserveRatio": true,
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
@@ -5068,7 +5184,7 @@
 										"name": "Vad gör skolan för ditt barn?",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4060, "y": 4168, "width": 370, "height": 39 },
+										"absoluteBoundingBox": { "x": 4060, "y": 4348, "width": 370, "height": 39 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -5108,7 +5224,7 @@
 										"name": "I videon går jag igenom vad som kan hända om man inte ser över sitt intag av mjölkprodukter och blir således en kall människa.",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": 4527, "y": 4217, "width": 719, "height": 133 },
+										"absoluteBoundingBox": { "x": 4527, "y": 4397, "width": 719, "height": 133 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -5150,7 +5266,7 @@
 										"blendMode": "PASS_THROUGH",
 										"absoluteBoundingBox": {
 											"x": 4527,
-											"y": 4499,
+											"y": 4679,
 											"width": 744,
 											"height": 0.00006504254997707903
 										},
@@ -5175,7 +5291,7 @@
 										"effects": []
 									}
 								],
-								"absoluteBoundingBox": { "x": 4060, "y": 4168, "width": 1211, "height": 356 },
+								"absoluteBoundingBox": { "x": 4060, "y": 4348, "width": 1211, "height": 356 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"clipsContent": false,
 								"background": [],
@@ -5745,6 +5861,42 @@
 						"blendMode": "PASS_THROUGH",
 						"children": [
 							{
+								"id": "112:1",
+								"name": "ButtonMobile",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": -257, "y": 677, "width": 50, "height": 18 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 0,
+								"strokeAlign": "OUTSIDE",
+								"effects": [],
+								"characters": "Button",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"textCase": "UPPER",
+									"fontSize": 12,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 14.0625,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {},
+								"styles": { "text": "39:17" }
+							},
+							{
 								"id": "29:51",
 								"name": "SMobile",
 								"type": "TEXT",
@@ -5786,7 +5938,7 @@
 								"name": "MMobile",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": -257, "y": 616, "width": 58, "height": 23 },
+								"absoluteBoundingBox": { "x": -257, "y": 616, "width": 51, "height": 21 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -5802,9 +5954,8 @@
 								"characters": "Body M",
 								"style": {
 									"fontFamily": "Poppins",
-									"fontPostScriptName": "Poppins-Bold",
-									"fontWeight": 700,
-									"textCase": "UPPER",
+									"fontPostScriptName": "Poppins-Regular",
+									"fontWeight": 400,
 									"fontSize": 14,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
@@ -5815,7 +5966,7 @@
 								},
 								"characterStyleOverrides": [],
 								"styleOverrideTable": {},
-								"styles": { "text": "54:50" }
+								"styles": { "text": "112:3" }
 							},
 							{
 								"id": "29:53",
@@ -5997,11 +6148,47 @@
 								"styles": { "text": "54:44" }
 							},
 							{
+								"id": "112:0",
+								"name": "Button",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": -257, "y": 264, "width": 50, "height": 18 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 0,
+								"strokeAlign": "OUTSIDE",
+								"effects": [],
+								"characters": "Button",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"textCase": "UPPER",
+									"fontSize": 12,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 14.0625,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {},
+								"styles": { "text": "39:17" }
+							},
+							{
 								"id": "29:45",
 								"name": "S",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": -257, "y": 226, "width": 53, "height": 22 },
+								"absoluteBoundingBox": { "x": -257, "y": 226, "width": 40, "height": 22 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -6020,13 +6207,13 @@
 									"fontPostScriptName": "HelveticaNeue",
 									"fontWeight": 400,
 									"paragraphSpacing": 1,
-									"fontSize": 16,
+									"fontSize": 12,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
 									"letterSpacing": 0,
 									"lineHeightPx": 22,
-									"lineHeightPercent": 117.33332824707031,
-									"lineHeightPercentFontSize": 137.5,
+									"lineHeightPercent": 156.44444274902344,
+									"lineHeightPercentFontSize": 183.3333282470703,
 									"lineHeightUnit": "PIXELS"
 								},
 								"characterStyleOverrides": [],
@@ -6038,7 +6225,7 @@
 								"name": "M",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": -257, "y": 185, "width": 67, "height": 27 },
+								"absoluteBoundingBox": { "x": -257, "y": 185, "width": 66, "height": 27 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -6054,27 +6241,26 @@
 								"characters": "Body M",
 								"style": {
 									"fontFamily": "Poppins",
-									"fontPostScriptName": "Poppins-Bold",
-									"fontWeight": 700,
-									"textCase": "UPPER",
-									"fontSize": 16,
+									"fontPostScriptName": "Poppins-Regular",
+									"fontWeight": 400,
+									"fontSize": 18,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
 									"letterSpacing": 0,
-									"lineHeightPx": 18.75,
+									"lineHeightPx": 21.09375,
 									"lineHeightPercent": 100,
 									"lineHeightUnit": "INTRINSIC_%"
 								},
 								"characterStyleOverrides": [],
 								"styleOverrideTable": {},
-								"styles": { "text": "39:17" }
+								"styles": { "text": "112:2" }
 							},
 							{
 								"id": "29:47",
 								"name": "L",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": -257, "y": 138, "width": 63, "height": 33 },
+								"absoluteBoundingBox": { "x": -257, "y": 138, "width": 64, "height": 30 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -6090,8 +6276,8 @@
 								"characters": "Body L",
 								"style": {
 									"fontFamily": "Poppins",
-									"fontPostScriptName": "Poppins-Light",
-									"fontWeight": 300,
+									"fontPostScriptName": "Poppins-Regular",
+									"fontWeight": 400,
 									"fontSize": 20,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
@@ -6815,7 +7001,7 @@
 										"name": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
 										"type": "TEXT",
 										"blendMode": "PASS_THROUGH",
-										"absoluteBoundingBox": { "x": -845, "y": 16, "width": 322, "height": 231 },
+										"absoluteBoundingBox": { "x": -845, "y": 16, "width": 322, "height": 210 },
 										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
 										"fills": [
 											{
@@ -6831,8 +7017,8 @@
 										"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
 										"style": {
 											"fontFamily": "Poppins",
-											"fontPostScriptName": "Poppins-Light",
-											"fontWeight": 300,
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
 											"fontSize": 20,
 											"textAlignHorizontal": "LEFT",
 											"textAlignVertical": "TOP",
@@ -7400,9 +7586,9 @@
 			"styleType": "TEXT",
 			"description": ""
 		},
-		"54:50": {
-			"key": "b8c1f7119e8c470466086c1504b9d7d94c846b49",
-			"name": "Button Mobile",
+		"112:3": {
+			"key": "a4a006ceae03e024ea37b04c666331d746ca4039",
+			"name": "Body M Mobile",
 			"styleType": "TEXT",
 			"description": ""
 		},
@@ -7441,10 +7627,16 @@
 			"name": "Note",
 			"styleType": "TEXT",
 			"description": ""
+		},
+		"112:2": {
+			"key": "6ab9bd2e34d4bc2ef98d8cafe38cca26b4460286",
+			"name": "Body M",
+			"styleType": "TEXT",
+			"description": ""
 		}
 	},
 	"name": "Psykolog Jenny",
-	"lastModified": "2019-08-06T11:08:21.347156Z",
-	"thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/8669ab2b-d475-4812-a3b2-32eb466037f3?Expires=1566172800&Signature=dy4OYzO5dzeaz9N~3xnhVmREKxOqo6jOvZ1yudqi1bZgaRdwomu-D7O-BKfo8iEJK1Tv9FflCYbvdK0Gb4lzD3UJS6QLFYlS0MGGItXzQ4oY6Rv9rS71JbMg0~0N7QV5~8qYHHQyXV0kkCfW1Tj~O78Pr1PagIUkX3aHAKA32kuxxPAjl5v0EH7SBsCUKVe0-owk9cWv-YsbM~DNMmFknQbRKbJ0iYbtKBkVXdC0WWYXh9SnsHWxn85pik0mWE5As4aZDJjnLL3VgdL6TdNPZZsP8uh3rXNdgJUs4n2uFpx3qMkmjTHFvK~WjcFCGXA5CPzyRsoxPMW6RMTnfcMEQg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-	"version": "157999287"
+	"lastModified": "2019-08-08T13:45:17.923089Z",
+	"thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/b88a8164-b94a-4c6f-8d53-656e4672fe30?Expires=1566172800&Signature=AFP8ZVSy~8hMxQTYeJuvIPzkdRwVSqHI0dBb5NLFHeNEWimgtxV3FNF-DH4GaysUFaKG3NaqBsAropen7vJjSvtJnWLzGrR5zmiiVeYrkA2DYrUgZblxT-10K~uQXo5uZv2MTItL883k3klupXmjQsgvz0b45KqlUwDXT1KVnMZ8he5ca0Z~Ey5vxZ8YfeLA7ahbboW5PmH2-0-82NWYtxn8pNTD2k1jtwMlqAP862gcNyVOEcTi5RBlTDO2WajKqACSUvKux4s-oht11urbnji3nSmH8AnZcsFadiMjSHzrkUtRdPY9T-qSP5WfRuwDAQuUfEu9nb70NLvr5CrUTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+	"version": "159045606"
 }

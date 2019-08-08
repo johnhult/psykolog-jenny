@@ -1,64 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
+import Label from 'components/Label';
 import InputStyled from './InputStyled';
 
-const Input = props => (
-	<InputStyled {...props}>
-		<label htmlFor={props.name}>{props.label}</label>
-		{props.textarea && (
-			<textarea
-				type={props.type}
-				id={props.name}
-				required={props.required}
-				pattern="[^\#_@£$|*/]{2,500}"
-				onChange={e => props.onChange(e)}
-				value={props.value}
-				defaultValue={props.defaultValue}
-			/>
-		)}
-		{!props.textarea && (
-			<input
-				type={props.type}
-				id={props.name}
-				name={props.name}
-				accept={props.accept}
-				required={props.required}
-				pattern="[^\#_@£$|*/]{2,500}"
-				multiple={props.multiple}
-				capture={props.capture}
-				onChange={e => props.onChange(e)}
-				value={props.value}
-				defaultValue={props.defaultValue}
-			/>
-		)}
-	</InputStyled>
-);
+const Input = ({ label, extraText, textarea, type, wrapperProps, ...props }) => {
+	const [filled, setFilled] = useState(false);
+
+	const checkValue = value => {
+		if (value === '') {
+			setFilled(false);
+		} else {
+			setFilled(true);
+		}
+	};
+
+	return (
+		<InputStyled
+			{...wrapperProps}
+			className={`InputWrapper ${wrapperProps.className ? wrapperProps.className : ''} ${
+				filled ? 'Filled' : ''
+			}`}
+		>
+			{textarea && <textarea id={props.name} {...props} />}
+			{!textarea && (
+				<input id={props.name} type={type} {...props} onChange={e => checkValue(e.target.value)} />
+			)}
+			{label && <Label htmlFor={props.name}>{label}</Label>}
+			{extraText && <span className="ExtraText">{extraText}</span>}
+		</InputStyled>
+	);
+};
 
 Input.propTypes = {
-	type: PropTypes.string,
 	label: PropTypes.string,
-	name: PropTypes.string,
-	accept: PropTypes.string,
+	name: PropTypes.string.isRequired,
+	pattern: PropTypes.string,
 	required: PropTypes.bool,
-	capture: PropTypes.bool,
-	onChange: PropTypes.func,
-	multiple: PropTypes.bool,
 	textarea: PropTypes.bool,
-	value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool])
+	extraText: PropTypes.string,
+	type: PropTypes.string,
+	wrapperProps: PropTypes.object
 };
 
 Input.defaultProps = {
-	onChange: () => null,
-	type: 'text',
-	label: 'Input',
-	name: 'Input',
-	accept: '*',
+	label: '',
+	pattern: undefined, // '[^\#_@£$|*/]{2,500}' --> Does not seem to be a valid RegExp?
 	required: false,
-	capture: false,
-	multiple: false,
 	textarea: false,
-	value: ''
+	type: 'text',
+	wrapperProps: {}
 };
 
 export default Input;
