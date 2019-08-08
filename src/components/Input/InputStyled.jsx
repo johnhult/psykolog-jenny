@@ -11,11 +11,11 @@ const InputStyled = styled.div`
 
 	&.Filled {
 		label {
-			transform: scale(0.8) translateY(-80%);
+			transform: scale(0.8) translateY(-85%);
 		}
 	}
 	input:focus + label {
-		transform: scale(0.8) translateY(-80%);
+		transform: scale(0.8) translateY(-85%);
 	}
 
 	input,
