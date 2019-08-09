@@ -1,15 +1,25 @@
 import contentful from 'helpers/contentful/contentful.js';
 
-export default async function getDataContentful(query, getAll) {
+export default async function getDataContentful(query, getAll, limit, orderBy) {
 	let entries;
 	if (getAll) {
+		let settings = limit
+			? {
+					content_type: query,
+					limit: limit
+			  }
+			: { content_type: query };
+		if (orderBy) {
+			settings.order = `-${orderBy.replace(/\[(.*?)\]/, '')}`;
+			let date = new Date().toISOString();
+			settings[`${orderBy}`] = date;
+		}
 		entries = await contentful
-			.getEntries({
-				content_type: query
-			})
+			.getEntries(settings)
 			.then(entries => {
 				// Do some clean-up: Make sure we only return "fields" and not the "sys" bits
 				const _entries = entries.items;
+				console.log(entries);
 				Object.keys(_entries).forEach(key => {
 					if (_entries[key].fields) {
 						_entries[key] = _entries[key].fields;

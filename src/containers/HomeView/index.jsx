@@ -10,9 +10,11 @@ import getDataContentful from 'helpers/contentful/getDataContentful.mjs';
 import H2 from 'components/H2';
 import Paragraph from 'components/Paragraph';
 import ButtonLink from 'components/ButtonLink';
-import Mega from 'components/Mega/index.jsx';
+import Mega from 'components/Mega';
 import Button from 'components/Button';
 import Input from 'components/Input';
+import BlogPost from 'components/BlogPost';
+import Video from 'components/Video';
 
 import {
 	HomeViewStyled,
@@ -23,9 +25,9 @@ import {
 	Subscribe,
 	SubscribeCenter,
 	Posts,
-	PostBox
+	PostBox,
+	VideoBox
 } from './style.jsx';
-import H3 from '../../components/H3/index.jsx';
 
 class HomeView extends React.Component {
 	constructor(props) {
@@ -62,10 +64,11 @@ class HomeView extends React.Component {
 		// In case you need to get view-specific data
 		const promises = [
 			getDataContentful('2EKjdmixdqVPj8IZKWqSoy'),
-			getDataContentful('blogPost', true)
+			getDataContentful('blogPost', true, 3, 'fields.publishDate[lt]'),
+			getDataContentful('video', true, 3, 'sys.createdAt[lt]')
 		];
 		const result = await Promise.all(promises);
-		const data = { blogPosts: result[1], ...result[0] };
+		const data = { blogPosts: result[1], videos: result[2], ...result[0] };
 
 		console.log(data);
 
@@ -198,23 +201,50 @@ class HomeView extends React.Component {
 						></canvas>
 					</Subscribe>
 
-					<Posts>
-						<div className="Flex">
-							<H2>{data.blogHeader}</H2>
-							<ButtonLink to={data.blogButtonUrl}>{data.blogButton}</ButtonLink>
-						</div>
-						<PostBox>
-							{data.blogPosts.map((post, index) => {
-								return (
-									<div key={`Post-${index}`}>
-										<img src={post.mainImage.file.url}></img>
-										<H3>{post.title}</H3>
-										<Paragraph>{post.subHeader}</Paragraph>
-									</div>
-								);
-							})}
-						</PostBox>
-					</Posts>
+					{data.blogPosts && (
+						<Posts>
+							<div className="Flex">
+								<H2>{data.blogHeader}</H2>
+								<ButtonLink to={data.blogButtonUrl}>{data.blogButton}</ButtonLink>
+							</div>
+							<PostBox>
+								{data.blogPosts.map((post, index) => {
+									return (
+										<BlogPost
+											key={`Post-${index}`}
+											className="Post"
+											img={post.mainImage.file.url}
+											title={post.title}
+											summary={post.summary}
+											url={post.url}
+										></BlogPost>
+									);
+								})}
+							</PostBox>
+						</Posts>
+					)}
+					{data.videos && (
+						<Posts>
+							<div className="Flex">
+								<H2>{data.videoHeader}</H2>
+								<ButtonLink to={data.videoButtonUrl}>{data.videoButton}</ButtonLink>
+							</div>
+							<VideoBox>
+								{data.videos.map((video, index) => {
+									return (
+										<Video
+											key={`Video-${index}`}
+											className="Video"
+											video={video.video.file.url}
+											title={video.title}
+											summary={video.summary}
+											url={video.url}
+										></Video>
+									);
+								})}
+							</VideoBox>
+						</Posts>
+					)}
 				</HomeViewStyled>
 			);
 		}

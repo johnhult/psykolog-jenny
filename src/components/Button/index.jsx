@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import ButtonStyled from './ButtonStyled';
 
-const Button = ({ loading, ...props }) => (
+const Button = ({ loading, to, ...props }) => (
 	<ButtonStyled
 		{...props}
+		to={to}
+		as={to ? Link : null}
 		className={`${props.className ? props.className : ''} ${loading ? 'Loading' : ''}`}
 		onClick={e => (props.onClick ? props.onClick(e) : null)}
 		disabled={props.disabled}
@@ -15,9 +18,12 @@ const Button = ({ loading, ...props }) => (
 );
 
 Button.propTypes = {
-	children: PropTypes.string.isRequired,
+	children: PropTypes.node.isRequired,
 	disabled: PropTypes.bool,
-	onClick: PropTypes.func
+	onClick: PropTypes.func,
+	to: PropTypes.string,
+	loading: PropTypes.bool,
+	className: PropTypes.string
 };
 
 Button.defaultTypes = {

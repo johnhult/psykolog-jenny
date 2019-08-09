@@ -165,6 +165,7 @@ export const Posts = styled.div`
 		display: flex;
 		flex-direction: column;
 		align-items: baseline;
+		margin-bottom: 20px;
 		@media all and (min-width: ${breakpoints.tablet}) {
 			flex-direction: row;
 		}
@@ -182,4 +183,37 @@ export const Posts = styled.div`
 
 export const PostBox = styled.div`
 	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-direction: column;
+	@media all and (min-width: ${breakpoints.desktop}) {
+		margin-left: -10px;
+		width: calc(100% + 20px);
+		flex-direction: row;
+	}
+	.Post {
+		width: 100%;
+		margin: 0 0 20px;
+		flex: 1;
+		@media all and (min-width: ${breakpoints.desktop}) {
+			margin: 0 10px 20px;
+			width: 30%;
+		}
+	}
+`;
+
+export const VideoBox = styled.div`
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-direction: column;
+	.Post {
+		width: 100%;
+		margin: 0 0 20px;
+		flex: 1;
+		@media all and (min-width: ${breakpoints.desktop}) {
+			margin: 0 10px 20px;
+			width: 30%;
+		}
+	}
 `;

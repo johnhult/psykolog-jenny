@@ -11,6 +11,7 @@ const H2Styled = styled.h2`
 	font-weight: ${fontWeights.bold};
 	text-align: ${props => (props.center ? 'center' : '')};
 	margin: 0;
+	margin-top: ${({ mTop }) => (mTop ? `${mTop}px` : null)};
 	margin-bottom: ${({ mBot }) => (mBot ? `${mBot}px` : null)};
 	@media all and (min-width: ${breakpoints.tablet}) {
 		font-size: ${fontSizes.h2};
