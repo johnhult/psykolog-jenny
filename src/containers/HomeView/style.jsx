@@ -159,7 +159,7 @@ export const SubscribeCenter = styled.div`
 
 export const Posts = styled.div`
 	max-width: calc(1100px + 10%);
-	padding: 100px 5%;
+	padding: 100px 5% 0;
 	margin: 0 auto;
 	.Flex {
 		display: flex;

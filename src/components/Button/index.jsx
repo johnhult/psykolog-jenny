@@ -21,7 +21,7 @@ Button.propTypes = {
 	children: PropTypes.node.isRequired,
 	disabled: PropTypes.bool,
 	onClick: PropTypes.func,
-	to: PropTypes.string,
+	to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 	loading: PropTypes.bool,
 	className: PropTypes.string
 };
