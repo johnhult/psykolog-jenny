@@ -15,10 +15,10 @@ import Button from 'components/Button';
 import Input from 'components/Input';
 import BlogPost from 'components/BlogPost';
 import Video from 'components/Video';
+import Waves from 'components/Waves';
 
 import {
 	HomeViewStyled,
-	Waves,
 	BlogInfo,
 	MegaSection,
 	MegaBox,
@@ -62,10 +62,19 @@ class HomeView extends React.Component {
 
 	async initView() {
 		// In case you need to get view-specific data
+		let date = new Date().toISOString();
 		const promises = [
 			getDataContentful('2EKjdmixdqVPj8IZKWqSoy'),
-			getDataContentful('blogPost', true, 3, 'fields.publishDate[lt]'),
-			getDataContentful('video', true, 3, 'sys.createdAt[lt]')
+			getDataContentful('blogPost', true, {
+				limit: 3,
+				order: '-fields.publishDate',
+				'fields.publishDate[lt]': date
+			}),
+			getDataContentful('video', true, {
+				limit: 3,
+				order: '-fields.publishDate',
+				'fields.publishDate[lt]': date
+			})
 		];
 		const result = await Promise.all(promises);
 		const data = { blogPosts: result[1], videos: result[2], ...result[0] };
@@ -129,7 +138,7 @@ class HomeView extends React.Component {
 			return (
 				<HomeViewStyled title="❤️ Välkommen">
 					<Header img={data.headerImage} text={data.introText} />
-					<Waves src="/assets/gfx/waves.svg"></Waves>
+					<Waves></Waves>
 					<BlogInfo>
 						<H2>{data.break1Header}</H2>
 						<Paragraph>{data.break1Text}</Paragraph>
@@ -216,7 +225,7 @@ class HomeView extends React.Component {
 											img={post.mainImage.file.url}
 											title={post.title}
 											summary={post.summary}
-											url={post.url}
+											url={`/blog/${post.url}`}
 										></BlogPost>
 									);
 								})}
@@ -238,7 +247,7 @@ class HomeView extends React.Component {
 											video={video.video.file.url}
 											title={video.title}
 											summary={video.summary}
-											url={video.url}
+											url={`/video/${video.url}`}
 										></Video>
 									);
 								})}

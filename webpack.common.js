@@ -27,11 +27,7 @@ module.exports = {
 		publicPath: '/'
 	},
 	resolve: {
-		modules: [
-			path.resolve(__dirname, 'node_modules'),
-			path.resolve(__dirname, 'src'),
-			path.resolve(__dirname, './')
-		],
+		modules: ['node_modules', path.resolve(__dirname, 'src'), path.resolve(__dirname, './')],
 		extensions: ['.js', '.jsx', '.html', '.jpg', '.jpeg', '.svg', '.png', '.woff2', '.woff'],
 		alias: {
 			'lodash-es': 'lodash'

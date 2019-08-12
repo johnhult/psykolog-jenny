@@ -9,16 +9,16 @@ const Menu = props => (
 		<NavLink exact activeClassName="ActiveRoute" to="">
 			Hem
 		</NavLink>
-		<NavLink activeClassName="ActiveRoute" to="/blogg">
+		<NavLink activeClassName="ActiveRoute" to="/blog">
 			Blogg
 		</NavLink>
 		<NavLink activeClassName="ActiveRoute" to="/videos">
 			Videos
 		</NavLink>
-		<NavLink activeClassName="ActiveRoute" to="/tjanster">
+		<NavLink activeClassName="ActiveRoute" to="/service">
 			Tjänster
 		</NavLink>
-		<NavLink activeClassName="ActiveRoute" to="/om-mig">
+		<NavLink activeClassName="ActiveRoute" to="/about">
 			Om mig
 		</NavLink>
 	</MenuStyled>

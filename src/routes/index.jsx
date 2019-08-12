@@ -28,7 +28,6 @@ class Routes extends React.Component {
 			<Switch>
 				<Route exact path="/" render={() => <HomeView />} />
 				<Route exact path="/blog" render={() => <BlogView />} />
-				<Route exact path="/examples" render={() => <ExamplesView />} />
 				<Route render={() => <Redirect to="/" />} />
 			</Switch>
 		);

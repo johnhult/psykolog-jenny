@@ -17,17 +17,6 @@ export const HomeViewStyled = styled(View)`
 	}
 `;
 
-export const Waves = styled.img`
-	position: relative;
-	z-index: -10;
-	width: 100%;
-	min-width: 1400px;
-	margin-top: -160px;
-	@media all and (min-width: ${breakpoints.tablet}) {
-		margin-top: -100px;
-	}
-`;
-
 export const BlogInfo = styled.div`
 	width: 90%;
 	max-width: 1100px;
@@ -35,8 +24,7 @@ export const BlogInfo = styled.div`
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 	padding: 30px 20px 20px;
 	position: relative;
-	margin-top: -70px;
-	margin-top: -5%;
+	margin-top: 200px;
 	background-color: ${colors.white};
 	display: flex;
 	flex-direction: column;

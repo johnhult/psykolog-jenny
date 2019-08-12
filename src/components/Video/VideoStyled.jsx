@@ -9,6 +9,7 @@ const VideoStyled = styled.div`
 	video {
 		width: 100%;
 		height: auto;
+		max-height: 300px;
 		margin-bottom: 10px;
 		flex-shrink: 0;
 		object-fit: cover;
