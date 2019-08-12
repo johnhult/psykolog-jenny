@@ -1,6 +1,6 @@
 {
-	"short_name": "Short",
-	"name": "Site title",
+	"short_name": "Psykolog J",
+	"name": "Psykolog Jenny",
 	"icons": [
 		{
 			"src": "assets/icons/icon-72x72.png",
@@ -45,7 +45,7 @@
 	],
 	"start_url": "/?utm_source=homescreen",
 	"display": "standalone",
-	"description": "Description",
+	"description": "Psykolog Jenny. Blogg och tankar inom psykologi. Licencerad psykolog med stort intresse för människor och deras liv. Baserad i Göteborg.",
 	"theme_color": "#000000",
 	"background_color": "#fff",
 	"orientation": "portrait",

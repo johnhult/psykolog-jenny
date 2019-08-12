@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 import colors from 'tokens/colors.mjs';
-import spacing from 'tokens/spacing.mjs';
 import fontSizes from 'tokens/fontSizes.mjs';
 import lineHeights from 'tokens/lineHeights.mjs';
 import breakpoints from 'helpers/constants/breakpoints.mjs';
@@ -11,11 +10,20 @@ const InputStyled = styled.div`
 
 	&.Filled {
 		label {
+			color: ${({ darkBg }) => (darkBg ? colors.white : null)};
 			transform: scale(0.8) translateY(-85%);
 		}
 	}
 	input:focus + label {
+		color: ${({ darkBg }) => (darkBg ? colors.white : null)};
 		transform: scale(0.8) translateY(-85%);
+	}
+	textarea:focus + label {
+		color: ${({ darkBg }) => (darkBg ? colors.white : null)};
+		transform: scale(0.8) translateY(-85%);
+	}
+	textarea + label {
+		height: 50px;
 	}
 
 	input,
@@ -43,11 +51,11 @@ const InputStyled = styled.div`
 	}
 
 	textarea {
-		border-radius: 5px;
-		border: 1px solid ${colors.gray3};
+		border-radius: 20px;
 		min-height: 150px;
-		padding: ${spacing.small} ${spacing.medium};
+		border: 1px solid ${colors.secondary};
 		line-height: ${lineHeights.s};
+		resize: none;
 	}
 `;
 

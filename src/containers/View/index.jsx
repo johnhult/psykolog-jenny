@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 
+import Footer from 'components/Footer';
+
 import ViewStyled from './ViewStyled';
 
 const View = ({ title, ...props }) => (
@@ -11,6 +13,7 @@ const View = ({ title, ...props }) => (
 			<link rel="canonical" href={window.location.href} />
 		</Helmet>
 		{props.children}
+		<Footer></Footer>
 	</ViewStyled>
 );
 

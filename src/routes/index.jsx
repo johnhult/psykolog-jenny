@@ -9,8 +9,8 @@ const HomeView = Loadable({
 	loader: () => import('containers/HomeView'),
 	loading: () => <Loader />
 });
-const ExamplesView = Loadable({
-	loader: () => import('containers/ExamplesView'),
+const BlogView = Loadable({
+	loader: () => import('containers/BlogView'),
 	loading: () => <Loader />
 });
 
@@ -27,6 +27,7 @@ class Routes extends React.Component {
 		return (
 			<Switch>
 				<Route exact path="/" render={() => <HomeView />} />
+				<Route exact path="/blog" render={() => <BlogView />} />
 				<Route exact path="/examples" render={() => <ExamplesView />} />
 				<Route render={() => <Redirect to="/" />} />
 			</Switch>

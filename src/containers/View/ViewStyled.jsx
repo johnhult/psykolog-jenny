@@ -9,7 +9,6 @@ const ViewStyled = styled.main`
 	box-sizing: border-box;
 	overflow-x: hidden;
 	padding-top: 60px;
-	padding-bottom: 60px;
 `;
 
 export default ViewStyled;

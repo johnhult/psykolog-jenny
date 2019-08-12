@@ -11,7 +11,7 @@ import getLocale from 'helpers/utils/getLocale.mjs';
 import Debug from 'components/Debug';
 import InstallBanner from 'components/InstallBanner';
 import ConsentModal from 'components/ConsentModal';
-import Menu from 'components/Menu/index';
+import Menu from 'components/Menu';
 
 import getInitialState from 'state/getInitialState.mjs';
 
