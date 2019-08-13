@@ -9,7 +9,17 @@ import Loader from 'components/Loader';
 import getDataContentful from 'helpers/contentful/getDataContentful.mjs';
 import BlogPost from 'components/BlogPost';
 
-import { BlogViewStyled, BlogHeader, Filter, Tag, Tags, Posts, LoadMoreButton } from './style.jsx';
+import {
+	BlogViewStyled,
+	BlogHeader,
+	Filter,
+	Tag,
+	Tags,
+	Posts,
+	LoadMoreButton,
+	NoPosts,
+	LoadingPosts
+} from './style.jsx';
 
 class BlogView extends React.Component {
 	constructor(props) {
@@ -25,8 +35,10 @@ class BlogView extends React.Component {
 			// Events
 			isLoading: true,
 			loadingPosts: false,
+			filteringPosts: false,
 			timesLoaded: 0,
-			blogPostLimit: 9
+			blogPostLimit: 9,
+			activeFilter: null
 		};
 
 		this.date;
@@ -37,17 +49,13 @@ class BlogView extends React.Component {
 		this.date = new Date().toISOString();
 		const promises = [
 			getDataContentful('4kRRVYY7pxQhrnLLJfBCWm'),
-			getDataContentful('blogPost', true, {
-				limit: this.state.blogPostLimit,
-				order: '-fields.publishDate',
-				'fields.publishDate[lt]': this.date
-			}),
-			getDataContentful('tags', true, { order: 'fields.name' })
+			this.getAllBlogPosts(),
+			getDataContentful('tags', true, { order: 'fields.name' }, true)
 		];
 		const result = await Promise.all(promises);
 		const data = { blogPosts: result[1], tags: result[2], ...result[0] };
 		data.tags = data.tags.sort((a, b) =>
-			a.name.toLowerCase().localeCompare(b.name.toLowerCase(), 'sv')
+			a.fields.name.toLowerCase().localeCompare(b.fields.name.toLowerCase(), 'sv')
 		);
 
 		console.log(data);
@@ -66,17 +74,71 @@ class BlogView extends React.Component {
 		await this.initView();
 	}
 
-	loadMorePosts = async () => {
-		const newPosts = await getDataContentful('blogPost', true, {
+	getAllBlogPosts = async () => {
+		return getDataContentful('blogPost', true, {
 			limit: this.state.blogPostLimit,
-			skip: this.state.blogPostLimit * this.state.timesLoaded,
 			order: '-fields.publishDate',
 			'fields.publishDate[lt]': this.date
 		});
+	};
+
+	loadMorePosts = async () => {
+		await this.setState({
+			loadingPosts: true
+		});
+		let newPosts;
+		if (this.state.activeFilter) {
+			newPosts = await getDataContentful('blogPost', true, {
+				limit: this.state.blogPostLimit,
+				skip: this.state.blogPostLimit * this.state.timesLoaded,
+				order: '-fields.publishDate',
+				links_to_entry: this.state.activeFilter.sys.id,
+				'fields.publishDate[lt]': this.date
+			});
+		} else {
+			newPosts = await getDataContentful('blogPost', true, {
+				limit: this.state.blogPostLimit,
+				skip: this.state.blogPostLimit * this.state.timesLoaded,
+				order: '-fields.publishDate',
+				'fields.publishDate[lt]': this.date
+			});
+		}
 		this.setState(prevState => {
 			return {
 				activeBlogPosts: [...prevState.activeBlogPosts, ...newPosts],
-				timesLoaded: prevState.timesLoaded + 1
+				timesLoaded: prevState.timesLoaded + 1,
+				loadingPosts: false
+			};
+		});
+	};
+
+	setFilter = async tagObject => {
+		await this.setState(prevState => ({
+			activeFilter:
+				prevState.activeFilter && prevState.activeFilter.fields.name === tagObject.fields.name
+					? null
+					: tagObject,
+			filteringPosts: true,
+			activeBlogPosts: []
+		}));
+
+		let newPosts;
+		if (this.state.activeFilter) {
+			newPosts = await getDataContentful('blogPost', true, {
+				limit: this.state.blogPostLimit,
+				order: '-fields.publishDate',
+				links_to_entry: this.state.activeFilter.sys.id,
+				'fields.publishDate[lt]': this.date
+			});
+		} else {
+			newPosts = await this.getAllBlogPosts();
+		}
+		this.setState(prevState => {
+			return {
+				data: { ...prevState.data, blogPosts: newPosts },
+				activeBlogPosts: newPosts,
+				timesLoaded: 1,
+				filteringPosts: false
 			};
 		});
 	};
@@ -85,6 +147,7 @@ class BlogView extends React.Component {
 		const { data } = this.state;
 		const { activeBlogPosts } = this.state;
 
+		console.log('aktive', activeBlogPosts);
 		if (this.state.isLoading) {
 			return <Loader />;
 		} else {
@@ -97,31 +160,53 @@ class BlogView extends React.Component {
 					<Waves mTop={{ mobile: -400, desktop: -350 }}></Waves>
 					<Filter>
 						<span>
-							Filtrera inläggen genom att välja vilka kategorier du är intresserad av att läsa.
+							Filtrera inläggen genom att välja vilken kategori du är intresserad av att läsa.
 						</span>
 						<Tags>
 							{data.tags.map((tag, index) => (
-								<Tag key={`Tag-${index}`}>{tag.name}</Tag>
+								<Tag
+									key={`Tag-${index}`}
+									active={
+										this.state.activeFilter &&
+										this.state.activeFilter.fields.name === tag.fields.name
+									}
+									onClick={() => (this.state.filteringPosts ? null : this.setFilter(tag))}
+								>
+									{tag.fields.name}
+								</Tag>
 							))}
 						</Tags>
 					</Filter>
 					<Posts>
-						{activeBlogPosts.map((post, index) => {
-							return (
-								<BlogPost
-									key={`Post-${index}`}
-									className="Post"
-									img={post.mainImage.file.url}
-									title={post.title}
-									summary={post.summary}
-									url={`/blog/${post.url}`}
-								></BlogPost>
-							);
-						})}
+						{activeBlogPosts.totalItems !== 0 ? (
+							activeBlogPosts.map((post, index) => {
+								return (
+									<BlogPost
+										key={`Post-${index}`}
+										className="Post"
+										img={post.mainImage.file.url}
+										title={post.title}
+										summary={post.summary}
+										url={`/blog/${post.url}`}
+										tags={post.tags}
+									></BlogPost>
+								);
+							})
+						) : (
+							<NoPosts>Inga inlägg hittade.</NoPosts>
+						)}
 					</Posts>
-					{data.blogPosts.totalItems > activeBlogPosts.length && (
-						<LoadMoreButton onClick={this.loadMorePosts}>Ladda fler inlägg</LoadMoreButton>
+					{(this.state.loadingPosts || this.state.filteringPosts) && (
+						<LoadingPosts h={100}></LoadingPosts>
 					)}
+					{activeBlogPosts &&
+						data.blogPosts.totalItems > activeBlogPosts.length &&
+						!this.state.filteringPosts &&
+						!this.state.loadingPosts && (
+							<LoadMoreButton onClick={this.loadMorePosts} disabled={this.state.loadingPosts}>
+								Ladda fler inlägg
+							</LoadMoreButton>
+						)}
 				</BlogViewStyled>
 			);
 		}

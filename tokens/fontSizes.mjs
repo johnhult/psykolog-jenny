@@ -1,6 +1,6 @@
 const fontSizes = {
 	buttonmobile: '0.75rem',
-	smobile: '0.625rem',
+	smobile: '0.75rem',
 	mmobile: '0.875rem',
 	lmobile: '1rem',
 	h3mobile: '1.25rem',

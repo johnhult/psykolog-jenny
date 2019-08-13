@@ -225,6 +225,7 @@ class HomeView extends React.Component {
 											img={post.mainImage.file.url}
 											title={post.title}
 											summary={post.summary}
+											tags={post.tags}
 											url={`/blog/${post.url}`}
 										></BlogPost>
 									);

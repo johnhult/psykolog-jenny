@@ -5314,6 +5314,3795 @@
 						"effects": []
 					},
 					{
+						"id": "145:53",
+						"name": "MacBook Pro 2.3",
+						"type": "FRAME",
+						"blendMode": "PASS_THROUGH",
+						"children": [
+							{
+								"id": "145:54",
+								"name": "Vector 2",
+								"type": "VECTOR",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": {
+									"x": 5598.5791015625,
+									"y": 3268.579833984375,
+									"width": 1327.114501953125,
+									"height": 848.0680541992188
+								},
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": { "r": 1, "g": 0.9778333306312561, "b": 0.9208333492279053, "a": 1 }
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "CENTER",
+								"styles": { "fill": "54:169" },
+								"effects": []
+							},
+							{
+								"id": "145:58",
+								"name": "Vector",
+								"type": "VECTOR",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": {
+									"x": 5421,
+									"y": 40,
+									"width": 1755.2967529296875,
+									"height": 386.9905700683594
+								},
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [],
+								"strokes": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.7250000238418579,
+											"g": 0.7250000238418579,
+											"b": 0.7250000238418579,
+											"a": 1
+										}
+									}
+								],
+								"strokeWeight": 1,
+								"strokeAlign": "CENTER",
+								"styles": { "stroke": "34:9" },
+								"exportSettings": [
+									{ "suffix": "", "format": "SVG", "constraint": { "type": "SCALE", "value": 1 } }
+								],
+								"effects": []
+							},
+							{
+								"id": "145:59",
+								"name": "duotone (1)",
+								"visible": false,
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5534, "y": -62, "width": 1440, "height": 550 },
+								"preserveRatio": true,
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "IMAGE",
+										"scaleMode": "STRETCH",
+										"imageRef": "d8a565515216c7a7b47f7fa08d994b9306f196f1",
+										"imageTransform": [
+											[1, 0, -0.0017280705505982041],
+											[0, 0.25462961196899414, 0.26397669315338135]
+										]
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"effects": []
+							},
+							{
+								"id": "145:60",
+								"name": "Rectangle 6",
+								"visible": false,
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5534, "y": 367, "width": 1440, "height": 121 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "GRADIENT_LINEAR",
+										"gradientHandlePositions": [
+											{ "x": 0.5, "y": -3.0616171314629196e-17 },
+											{ "x": 0.5, "y": 0.9999999999999999 },
+											{ "x": 0, "y": 0 }
+										],
+										"gradientStops": [
+											{
+												"color": {
+													"r": 1,
+													"g": 0.8377497792243958,
+													"b": 0.26249998807907104,
+													"a": 0
+												},
+												"position": 0
+											},
+											{
+												"color": {
+													"r": 1,
+													"g": 0.8377499580383301,
+													"b": 0.26249998807907104,
+													"a": 1
+												},
+												"position": 1
+											}
+										]
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"effects": []
+							},
+							{
+								"id": "145:61",
+								"name": "Rectangle 4",
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6121, "y": -19, "width": 55, "height": 12 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.15656250715255737,
+											"g": 0.6311209201812744,
+											"b": 0.6958333253860474,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"styles": { "fill": "34:12" },
+								"effects": []
+							},
+							{
+								"id": "145:62",
+								"name": "Group 2",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:63",
+										"name": "Blog Post",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:63;36:71",
+												"name": "Rectangle 6",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 5649,
+													"y": 2995,
+													"width": 387,
+													"height": 680
+												},
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "34:2", "stroke": "34:9" },
+												"effects": []
+											},
+											{
+												"id": "I145:63;36:72",
+												"name": "Varför Ron Swanson är en fantastisk chef",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 5676, "y": 3261, "width": 322, "height": 72 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"effects": [],
+												"characters": "Varför Ron Swanson är en fantastisk chef",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"fontSize": 24,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 28.125,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {},
+												"styles": { "text": "36:53" }
+											},
+											{
+												"id": "I145:63;36:73",
+												"name": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 5676,
+													"y": 3357,
+													"width": 322,
+													"height": 210
+												},
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"effects": [],
+												"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {},
+												"styles": { "text": "36:23" }
+											},
+											{
+												"id": "I145:63;36:74",
+												"name": "image 2.1",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 5671,
+													"y": 3019,
+													"width": 343,
+													"height": 220
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "IMAGE",
+														"scaleMode": "FILL",
+														"imageRef": "03c2a88130252542dbf783be0551f27c4aa1e941"
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"effects": []
+											},
+											{
+												"id": "I145:63;36:75",
+												"name": "Button",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:63;36:75;36:58",
+														"name": "Rectangle 4",
+														"type": "RECTANGLE",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 5718,
+															"y": 3608,
+															"width": 250,
+															"height": 50
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "GRADIENT_LINEAR",
+																"gradientHandlePositions": [
+																	{ "x": -1.1102230246251565e-16, "y": 0 },
+																	{ "x": 0.9999999999999998, "y": 0 },
+																	{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+																],
+																"gradientStops": [
+																	{
+																		"color": {
+																			"r": 1,
+																			"g": 0.929411768913269,
+																			"b": 0.7372549176216125,
+																			"a": 1
+																		},
+																		"position": 0
+																	},
+																	{
+																		"color": {
+																			"r": 0.929411768913269,
+																			"g": 0.25882354378700256,
+																			"b": 0.3921568691730499,
+																			"a": 1
+																		},
+																		"position": 1
+																	}
+																]
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 1,
+														"strokeAlign": "INSIDE",
+														"styles": { "fill": "8:13" },
+														"effects": [],
+														"cornerRadius": 80,
+														"rectangleCornerRadii": [80, 80, 80, 80]
+													},
+													{
+														"id": "I145:63;36:75;36:59",
+														"name": "läs detta inlägg",
+														"type": "TEXT",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 5769,
+															"y": 3621,
+															"width": 148,
+															"height": 24
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 1,
+														"strokeAlign": "OUTSIDE",
+														"styles": { "fill": "34:2" },
+														"effects": [],
+														"characters": "läs detta inlägg",
+														"style": {
+															"fontFamily": "Poppins",
+															"fontPostScriptName": "Poppins-Bold",
+															"fontWeight": 700,
+															"textCase": "UPPER",
+															"fontSize": 16,
+															"textAlignHorizontal": "CENTER",
+															"textAlignVertical": "CENTER",
+															"letterSpacing": 0,
+															"lineHeightPx": 18.75,
+															"lineHeightPercent": 100,
+															"lineHeightUnit": "INTRINSIC_%"
+														},
+														"characterStyleOverrides": [],
+														"styleOverrideTable": {}
+													}
+												],
+												"absoluteBoundingBox": { "x": 5718, "y": 3608, "width": 250, "height": 50 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"effects": [],
+												"componentId": "36:60"
+											}
+										],
+										"absoluteBoundingBox": { "x": 5649, "y": 2995, "width": 387, "height": 663 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:79"
+									},
+									{
+										"id": "145:64",
+										"name": "Blog Post",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:64;36:71",
+												"name": "Rectangle 6",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6057,
+													"y": 2995,
+													"width": 387,
+													"height": 680
+												},
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "34:2", "stroke": "34:9" },
+												"effects": []
+											},
+											{
+												"id": "I145:64;36:72",
+												"name": "Ät bra och skapa lugn före mötet",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6084, "y": 3261, "width": 322, "height": 72 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"effects": [],
+												"characters": "Ät bra och skapa lugn före mötet",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"fontSize": 24,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 28.125,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {},
+												"styles": { "text": "36:53" }
+											},
+											{
+												"id": "I145:64;36:73",
+												"name": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6084,
+													"y": 3357,
+													"width": 322,
+													"height": 210
+												},
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"effects": [],
+												"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {},
+												"styles": { "text": "36:23" }
+											},
+											{
+												"id": "I145:64;36:74",
+												"name": "image 2.1",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6079,
+													"y": 3019,
+													"width": 343,
+													"height": 220
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "IMAGE",
+														"scaleMode": "FILL",
+														"imageRef": "b734f1e09a402dd48672fd437b1613968d084918"
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"effects": []
+											},
+											{
+												"id": "I145:64;36:75",
+												"name": "Button",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:64;36:75;36:58",
+														"name": "Rectangle 4",
+														"type": "RECTANGLE",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 6126,
+															"y": 3608,
+															"width": 250,
+															"height": 50
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "GRADIENT_LINEAR",
+																"gradientHandlePositions": [
+																	{ "x": -1.1102230246251565e-16, "y": 0 },
+																	{ "x": 0.9999999999999998, "y": 0 },
+																	{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+																],
+																"gradientStops": [
+																	{
+																		"color": {
+																			"r": 1,
+																			"g": 0.929411768913269,
+																			"b": 0.7372549176216125,
+																			"a": 1
+																		},
+																		"position": 0
+																	},
+																	{
+																		"color": {
+																			"r": 0.929411768913269,
+																			"g": 0.25882354378700256,
+																			"b": 0.3921568691730499,
+																			"a": 1
+																		},
+																		"position": 1
+																	}
+																]
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 1,
+														"strokeAlign": "INSIDE",
+														"styles": { "fill": "8:13" },
+														"effects": [],
+														"cornerRadius": 80,
+														"rectangleCornerRadii": [80, 80, 80, 80]
+													},
+													{
+														"id": "I145:64;36:75;36:59",
+														"name": "läs detta inlägg",
+														"type": "TEXT",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 6177,
+															"y": 3621,
+															"width": 148,
+															"height": 24
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 1,
+														"strokeAlign": "OUTSIDE",
+														"styles": { "fill": "34:2" },
+														"effects": [],
+														"characters": "läs detta inlägg",
+														"style": {
+															"fontFamily": "Poppins",
+															"fontPostScriptName": "Poppins-Bold",
+															"fontWeight": 700,
+															"textCase": "UPPER",
+															"fontSize": 16,
+															"textAlignHorizontal": "CENTER",
+															"textAlignVertical": "CENTER",
+															"letterSpacing": 0,
+															"lineHeightPx": 18.75,
+															"lineHeightPercent": 100,
+															"lineHeightUnit": "INTRINSIC_%"
+														},
+														"characterStyleOverrides": [],
+														"styleOverrideTable": {}
+													}
+												],
+												"absoluteBoundingBox": { "x": 6126, "y": 3608, "width": 250, "height": 50 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"effects": [],
+												"componentId": "36:60"
+											}
+										],
+										"absoluteBoundingBox": { "x": 6057, "y": 2995, "width": 387, "height": 663 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:79"
+									},
+									{
+										"id": "145:65",
+										"name": "Blog Post",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:65;36:71",
+												"name": "Rectangle 6",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6465,
+													"y": 2995,
+													"width": 387,
+													"height": 680
+												},
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "34:2", "stroke": "34:9" },
+												"effects": [],
+												"cornerRadius": 10
+											},
+											{
+												"id": "I145:65;36:72",
+												"name": "Gör din hemstad till något nytt",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6492, "y": 3261, "width": 322, "height": 72 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"effects": [],
+												"characters": "Gör din hemstad till något nytt",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"fontSize": 24,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 28.125,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {},
+												"styles": { "text": "36:53" }
+											},
+											{
+												"id": "I145:65;36:73",
+												"name": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6492,
+													"y": 3357,
+													"width": 322,
+													"height": 210
+												},
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"effects": [],
+												"characters": "Ett inlägg med populärkultur referenser! Vilken dröm. Vi skrattar gärna åt Ron och gänget från Parks and Recreation men det finns mycket att hämta som chef från hans sätt att agera på.",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {},
+												"styles": { "text": "36:23" }
+											},
+											{
+												"id": "I145:65;36:74",
+												"name": "image 2.1",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6487,
+													"y": 3019,
+													"width": 343,
+													"height": 220
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "IMAGE",
+														"scaleMode": "FILL",
+														"imageRef": "6b9eea6442306ff054685be5eb1d0af6aa261784"
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"effects": []
+											},
+											{
+												"id": "I145:65;36:75",
+												"name": "Button",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:65;36:75;36:58",
+														"name": "Rectangle 4",
+														"type": "RECTANGLE",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 6534,
+															"y": 3608,
+															"width": 250,
+															"height": 50
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "GRADIENT_LINEAR",
+																"gradientHandlePositions": [
+																	{ "x": -1.1102230246251565e-16, "y": 0 },
+																	{ "x": 0.9999999999999998, "y": 0 },
+																	{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+																],
+																"gradientStops": [
+																	{
+																		"color": {
+																			"r": 1,
+																			"g": 0.929411768913269,
+																			"b": 0.7372549176216125,
+																			"a": 1
+																		},
+																		"position": 0
+																	},
+																	{
+																		"color": {
+																			"r": 0.929411768913269,
+																			"g": 0.25882354378700256,
+																			"b": 0.3921568691730499,
+																			"a": 1
+																		},
+																		"position": 1
+																	}
+																]
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 1,
+														"strokeAlign": "INSIDE",
+														"styles": { "fill": "8:13" },
+														"effects": [],
+														"cornerRadius": 80,
+														"rectangleCornerRadii": [80, 80, 80, 80]
+													},
+													{
+														"id": "I145:65;36:75;36:59",
+														"name": "läs detta inlägg",
+														"type": "TEXT",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 6585,
+															"y": 3621,
+															"width": 148,
+															"height": 24
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 1,
+														"strokeAlign": "OUTSIDE",
+														"styles": { "fill": "34:2" },
+														"effects": [],
+														"characters": "läs detta inlägg",
+														"style": {
+															"fontFamily": "Poppins",
+															"fontPostScriptName": "Poppins-Bold",
+															"fontWeight": 700,
+															"textCase": "UPPER",
+															"fontSize": 16,
+															"textAlignHorizontal": "CENTER",
+															"textAlignVertical": "CENTER",
+															"letterSpacing": 0,
+															"lineHeightPx": 18.75,
+															"lineHeightPercent": 100,
+															"lineHeightUnit": "INTRINSIC_%"
+														},
+														"characterStyleOverrides": [],
+														"styleOverrideTable": {}
+													}
+												],
+												"absoluteBoundingBox": { "x": 6534, "y": 3608, "width": 250, "height": 50 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"effects": [],
+												"componentId": "36:60"
+											}
+										],
+										"absoluteBoundingBox": { "x": 6465, "y": 2995, "width": 387, "height": 663 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:79"
+									}
+								],
+								"absoluteBoundingBox": { "x": 5649, "y": 2995, "width": 1203, "height": 663 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:66",
+								"name": "Rectangle 8",
+								"visible": false,
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5680, "y": 212, "width": 1294, "height": 280 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "GRADIENT_LINEAR",
+										"gradientHandlePositions": [
+											{ "x": -1.1102230246251565e-16, "y": 0 },
+											{ "x": 0.9999999999999998, "y": 0 },
+											{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+										],
+										"gradientStops": [
+											{
+												"color": {
+													"r": 1,
+													"g": 0.929411768913269,
+													"b": 0.7372549176216125,
+													"a": 1
+												},
+												"position": 0
+											},
+											{
+												"color": {
+													"r": 0.929411768913269,
+													"g": 0.25882354378700256,
+													"b": 0.3921568691730499,
+													"a": 1
+												},
+												"position": 1
+											}
+										]
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"styles": { "fill": "8:13" },
+								"effects": []
+							},
+							{
+								"id": "145:67",
+								"name": "Text om dig. IndroduktionLegitimerad psykolog som arbetat inom olika kategorier inom psykologi. Har arbetat med KBT (Kognitiv Beteende Terapi), varit organisationskonsult och även hållt i föreläsningar.",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5900, "y": 198, "width": 709, "height": 133 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"styles": { "fill": "34:1", "text": "36:23" },
+								"effects": [],
+								"characters": "Text om dig. IndroduktionLegitimerad psykolog som arbetat inom olika kategorier inom psykologi. Har arbetat med KBT (Kognitiv Beteende Terapi), varit organisationskonsult och även hållt i föreläsningar.",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Regular",
+									"fontWeight": 400,
+									"fontSize": 20,
+									"textAlignHorizontal": "CENTER",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 23.4375,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:73",
+								"name": "image 2",
+								"visible": false,
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5534, "y": -62, "width": 1440, "height": 757 },
+								"preserveRatio": true,
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "IMAGE",
+										"scaleMode": "STRETCH",
+										"imageRef": "0437978a7c8c78b418980eeeba78ce84d5c91ceb",
+										"imageTransform": [
+											[1, 0, -0.0009624447557143867],
+											[0, 0.7914142608642578, 0.09010285884141922]
+										]
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"effects": []
+							},
+							{
+								"id": "145:74",
+								"name": "Rectangle 2",
+								"visible": false,
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5534, "y": -62, "width": 1440, "height": 757 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"opacity": 0.30000001192092896,
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"effects": []
+							},
+							{
+								"id": "145:75",
+								"name": "Rectangle 2.1",
+								"visible": false,
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5534, "y": -62, "width": 1440, "height": 757 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "GRADIENT_LINEAR",
+										"gradientHandlePositions": [
+											{ "x": 0, "y": 0 },
+											{ "x": 1, "y": 1 },
+											{ "x": -0.5, "y": 1.8092693597197145 }
+										],
+										"gradientStops": [
+											{
+												"color": {
+													"r": 1,
+													"g": 0.9291667342185974,
+													"b": 0.2916666865348816,
+													"a": 1
+												},
+												"position": 0
+											},
+											{
+												"color": {
+													"r": 1,
+													"g": 0.5167317390441895,
+													"b": 0.5167317390441895,
+													"a": 1
+												},
+												"position": 1
+											}
+										]
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"effects": []
+							},
+							{
+								"id": "145:76",
+								"name": "Waves",
+								"visible": false,
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:77",
+										"name": "Vector",
+										"type": "VECTOR",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5534, "y": 72, "width": 1440, "height": 402 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "GRADIENT_LINEAR",
+												"gradientHandlePositions": [
+													{ "x": -1.1102230246251565e-16, "y": 0 },
+													{ "x": 0.9999999999999998, "y": 0 },
+													{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+												],
+												"gradientStops": [
+													{
+														"color": {
+															"r": 1,
+															"g": 0.929411768913269,
+															"b": 0.7372549176216125,
+															"a": 1
+														},
+														"position": 0
+													},
+													{
+														"color": {
+															"r": 0.929411768913269,
+															"g": 0.25882354378700256,
+															"b": 0.3921568691730499,
+															"a": 1
+														},
+														"position": 1
+													}
+												]
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "CENTER",
+										"styles": { "fill": "8:13" },
+										"effects": []
+									},
+									{
+										"id": "145:78",
+										"name": "Vector",
+										"type": "VECTOR",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5534, "y": 177, "width": 1440, "height": 402 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "GRADIENT_LINEAR",
+												"gradientHandlePositions": [
+													{ "x": 0.028472228936723798, "y": 0.15796014368540945 },
+													{ "x": 1.0000000217153384, "y": 1.0000000188210576 },
+													{ "x": -0.3925477086311001, "y": 6.390973724065727 }
+												],
+												"gradientStops": [
+													{
+														"color": {
+															"r": 1,
+															"g": 0.7791666984558105,
+															"b": 0.7791666984558105,
+															"a": 1
+														},
+														"position": 0
+													},
+													{
+														"color": {
+															"r": 0.7959998846054077,
+															"g": 0.36250001192092896,
+															"b": 1,
+															"a": 1
+														},
+														"position": 1
+													}
+												]
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "CENTER",
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": { "x": 5534, "y": 72, "width": 1440, "height": 507 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:79",
+								"name": "Blogg",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6159, "y": 86, "width": 189, "height": 96 },
+								"constraints": { "vertical": "TOP", "horizontal": "CENTER" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"styles": { "fill": "34:1", "text": "36:19" },
+								"effects": [],
+								"characters": "Blogg",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 64,
+									"textAlignHorizontal": "CENTER",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 75,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:80",
+								"name": "Hem",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6105, "y": -40, "width": 60, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"styles": { "fill": "34:1" },
+								"effects": [],
+								"characters": "Hem",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 24,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 28.125,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:81",
+								"name": "Blogg",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6246, "y": -40, "width": 74, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"opacity": 0.4000000059604645,
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"effects": [],
+								"characters": "Blogg",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 24,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 28.125,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:82",
+								"name": "Videor",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6389, "y": -40, "width": 83, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"opacity": 0.4000000059604645,
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"effects": [],
+								"characters": "Videor",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 24,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 28.125,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:83",
+								"name": "Om mig",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6708, "y": -40, "width": 103, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"opacity": 0.4000000059604645,
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"effects": [],
+								"characters": "Om mig",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 24,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 28.125,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:84",
+								"name": "Tjänster",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6543, "y": -40, "width": 105, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"opacity": 0.4000000059604645,
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"effects": [],
+								"characters": "Tjänster",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 24,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 28.125,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:85",
+								"name": "image",
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 6875, "y": -46, "width": 48, "height": 48 },
+								"preserveRatio": true,
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "IMAGE",
+										"scaleMode": "FILL",
+										"imageRef": "d6cafba2e435f0edc90cef2661ba70549a880444"
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"effects": []
+							},
+							{
+								"id": "145:86",
+								"name": "Seperator",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:87",
+										"name": "Rectangle 7",
+										"type": "RECTANGLE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5534, "y": 2152, "width": 1440, "height": 586 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "GRADIENT_LINEAR",
+												"gradientHandlePositions": [
+													{ "x": -1.1102230246251565e-16, "y": 0 },
+													{ "x": 0.9999999999999998, "y": 0 },
+													{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+												],
+												"gradientStops": [
+													{
+														"color": {
+															"r": 1,
+															"g": 0.929411768913269,
+															"b": 0.7372549176216125,
+															"a": 1
+														},
+														"position": 0
+													},
+													{
+														"color": {
+															"r": 0.929411768913269,
+															"g": 0.25882354378700256,
+															"b": 0.3921568691730499,
+															"a": 1
+														},
+														"position": 1
+													}
+												]
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"styles": { "fill": "8:13" },
+										"effects": []
+									},
+									{
+										"id": "145:88",
+										"name": "Screen Shot 2019-06-30 at 18.39",
+										"type": "RECTANGLE",
+										"blendMode": "DARKEN",
+										"absoluteBoundingBox": { "x": 5534, "y": 2152, "width": 1440, "height": 586 },
+										"preserveRatio": true,
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "IMAGE",
+												"scaleMode": "FILL",
+												"imageRef": "797b208d1821624033f34dfd6b735dd7a148768b"
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"effects": []
+									},
+									{
+										"id": "145:89",
+										"name": "Glada små uppdateringar",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": {
+											"x": 6017,
+											"y": 2256.6884765625,
+											"width": 474,
+											"height": 71.49455261230469
+										},
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:22" },
+										"effects": [],
+										"characters": "Glada små uppdateringar",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 34,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 39.84375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:90",
+										"name": "Vill du hålla dig uppdaterad? Se till att skriva upp dig för att få höra från mig. Mail kommer ungefär en gång i månaden och används endast för att skicka nyheter från mig.",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": {
+											"x": 5884,
+											"y": 2340.949951171875,
+											"width": 741,
+											"height": 149.37254333496094
+										},
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1" },
+										"effects": [],
+										"characters": "Vill du hålla dig uppdaterad? Se till att skriva upp dig för att få höra från mig. Mail kommer ungefär en gång i månaden och används endast för att skicka nyheter från mig.",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
+											"fontSize": 24,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 28.125,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									}
+								],
+								"absoluteBoundingBox": { "x": 5534, "y": 2152, "width": 1440, "height": 586 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:91",
+								"name": "Group 5",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:92",
+										"name": "Varför",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 6155, "y": 1786, "width": 522, "height": 262 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.9563318490982056,
+													"g": 0.9563318490982056,
+													"b": 0.9563318490982056,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:8", "text": "36:54" },
+										"effects": [],
+										"characters": "Varför",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 160,
+											"textAlignHorizontal": "RIGHT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 187.5,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:93",
+										"name": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 6083, "y": 1937, "width": 594, "height": 133 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:23" },
+										"effects": [],
+										"characters": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
+											"fontSize": 20,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 23.4375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:94",
+										"name": "Group",
+										"type": "GROUP",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "145:95",
+												"name": "Ellipse",
+												"type": "VECTOR",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 5832,
+													"y": 1811,
+													"width": 214,
+													"height": 231
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 1,
+															"g": 0.5916666984558105,
+															"b": 0.6651666164398193,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "53:2" },
+												"effects": []
+											},
+											{
+												"id": "145:96",
+												"name": "24 / basic / flame",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:96;54:158",
+														"name": "icon",
+														"type": "BOOLEAN_OPERATION",
+														"blendMode": "PASS_THROUGH",
+														"booleanOperation": "EXCLUDE",
+														"children": [
+															{
+																"id": "I145:96;54:159",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 5900.5654296875,
+																	"y": 1876.649169921875,
+																	"width": 70.76730346679688,
+																	"height": 91.51753234863281
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [
+																	{
+																		"blendMode": "NORMAL",
+																		"visible": false,
+																		"type": "SOLID",
+																		"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+																	}
+																],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															},
+															{
+																"id": "I145:96;54:160",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 5909.39892578125,
+																	"y": 1892.202392578125,
+																	"width": 53.09986877441406,
+																	"height": 67.13102722167969
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [
+																	{
+																		"blendMode": "NORMAL",
+																		"visible": false,
+																		"type": "SOLID",
+																		"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+																	}
+																],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															}
+														],
+														"absoluteBoundingBox": {
+															"x": 5900.5654296875,
+															"y": 1876.649169921875,
+															"width": 70.76730346679688,
+															"height": 91.51753234863281
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 0,
+														"strokeAlign": "CENTER",
+														"styles": { "fill": "34:2" },
+														"effects": []
+													}
+												],
+												"absoluteBoundingBox": {
+													"x": 5883,
+													"y": 1871,
+													"width": 106,
+													"height": 106
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [
+													{
+														"blendMode": "NORMAL",
+														"visible": false,
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"layoutGrids": [],
+												"effects": [],
+												"componentId": "54:157"
+											}
+										],
+										"absoluteBoundingBox": { "x": 5832, "y": 1811, "width": 214, "height": 231 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"exportSettings": [
+											{
+												"suffix": "",
+												"format": "SVG",
+												"constraint": { "type": "SCALE", "value": 1 }
+											}
+										],
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": { "x": 5832, "y": 1786, "width": 845, "height": 284 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:97",
+								"name": "Group 4",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:98",
+										"name": "Vad",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5825, "y": 1514, "width": 340, "height": 262 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.9563318490982056,
+													"g": 0.9563318490982056,
+													"b": 0.9563318490982056,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:8", "text": "36:54" },
+										"effects": [],
+										"characters": "Vad",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 160,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 187.5,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:99",
+										"name": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5826, "y": 1670, "width": 600, "height": 133 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:23" },
+										"effects": [],
+										"characters": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
+											"fontSize": 20,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 23.4375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:100",
+										"name": "Group",
+										"type": "GROUP",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "145:101",
+												"name": "Ellipse",
+												"type": "VECTOR",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6455.70556640625,
+													"y": 1550,
+													"width": 238.79441833496094,
+													"height": 215.5
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "34:12" },
+												"effects": []
+											},
+											{
+												"id": "145:102",
+												"name": "24 / basic / lightning",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:102;54:146",
+														"name": "icon",
+														"type": "BOOLEAN_OPERATION",
+														"blendMode": "PASS_THROUGH",
+														"booleanOperation": "SUBTRACT",
+														"children": [
+															{
+																"id": "I145:102;54:147",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 6537.12744140625,
+																	"y": 1609.31494140625,
+																	"width": 74.74578094482422,
+																	"height": 100.3697280883789
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [
+																	{
+																		"blendMode": "NORMAL",
+																		"visible": false,
+																		"type": "SOLID",
+																		"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+																	}
+																],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															},
+															{
+																"id": "I145:102;54:148",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 6556.37255859375,
+																	"y": 1635.6845703125,
+																	"width": 36.25422286987305,
+																	"height": 47.63027572631836
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [
+																	{
+																		"blendMode": "NORMAL",
+																		"visible": false,
+																		"type": "SOLID",
+																		"color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+																	}
+																],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															}
+														],
+														"absoluteBoundingBox": {
+															"x": 6537.12744140625,
+															"y": 1609.31494140625,
+															"width": 74.74578094482422,
+															"height": 100.3697280883789
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 0,
+														"strokeAlign": "CENTER",
+														"styles": { "fill": "34:2" },
+														"effects": []
+													}
+												],
+												"absoluteBoundingBox": {
+													"x": 6519,
+													"y": 1604,
+													"width": 111,
+													"height": 111
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [
+													{
+														"blendMode": "NORMAL",
+														"visible": false,
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"layoutGrids": [],
+												"effects": [],
+												"componentId": "54:145"
+											}
+										],
+										"absoluteBoundingBox": {
+											"x": 6455.70556640625,
+											"y": 1550,
+											"width": 238.79441833496094,
+											"height": 215.5
+										},
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"exportSettings": [
+											{
+												"suffix": "",
+												"format": "SVG",
+												"constraint": { "type": "SCALE", "value": 1 }
+											}
+										],
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": { "x": 5825, "y": 1514, "width": 869.5, "height": 289 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:103",
+								"name": "Group 3",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:104",
+										"name": "Hur",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 6375, "y": 1225, "width": 302, "height": 262 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.9563318490982056,
+													"g": 0.9563318490982056,
+													"b": 0.9563318490982056,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:8", "text": "36:54" },
+										"effects": [],
+										"characters": "Hur",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 160,
+											"textAlignHorizontal": "RIGHT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 187.5,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:105",
+										"name": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 6083, "y": 1381, "width": 594, "height": 133 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:23" },
+										"effects": [],
+										"characters": "Hur du arbetar. Här krävs att du skriver ner de punkter du jobbat med i en mer berättande text om olika delar.",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Regular",
+											"fontWeight": 400,
+											"fontSize": 20,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 23.4375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:106",
+										"name": "Group",
+										"type": "GROUP",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "145:107",
+												"name": "Ellipse",
+												"type": "VECTOR",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 5821.44921875,
+													"y": 1270,
+													"width": 230.05072021484375,
+													"height": 221
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 1,
+															"g": 0.8377499580383301,
+															"b": 0.26249998807907104,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "34:10" },
+												"effects": []
+											},
+											{
+												"id": "145:108",
+												"name": "24 / basic / glasses",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:108;54:164",
+														"name": "icon",
+														"type": "BOOLEAN_OPERATION",
+														"blendMode": "PASS_THROUGH",
+														"booleanOperation": "SUBTRACT",
+														"children": [
+															{
+																"id": "I145:108;54:165",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 5886,
+																	"y": 1355,
+																	"width": 105,
+																	"height": 43.75
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															},
+															{
+																"id": "I145:108;54:166",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 5899.125,
+																	"y": 1363.75,
+																	"width": 26.25,
+																	"height": 26.25000762939453
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															},
+															{
+																"id": "I145:108;54:167",
+																"name": "Path",
+																"type": "VECTOR",
+																"blendMode": "PASS_THROUGH",
+																"absoluteBoundingBox": {
+																	"x": 5951.625,
+																	"y": 1363.75,
+																	"width": 26.25,
+																	"height": 26.25000762939453
+																},
+																"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+																"fills": [],
+																"strokes": [],
+																"strokeWeight": 0,
+																"strokeAlign": "CENTER",
+																"effects": []
+															}
+														],
+														"absoluteBoundingBox": {
+															"x": 5886,
+															"y": 1355,
+															"width": 105,
+															"height": 43.75
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+															}
+														],
+														"strokes": [],
+														"strokeWeight": 0,
+														"strokeAlign": "CENTER",
+														"styles": { "fill": "34:2" },
+														"effects": []
+													}
+												],
+												"absoluteBoundingBox": {
+													"x": 5886,
+													"y": 1320,
+													"width": 105,
+													"height": 105
+												},
+												"preserveRatio": true,
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [
+													{
+														"blendMode": "NORMAL",
+														"visible": false,
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"layoutGrids": [],
+												"effects": [],
+												"componentId": "54:163"
+											}
+										],
+										"absoluteBoundingBox": {
+											"x": 5821.44921875,
+											"y": 1270,
+											"width": 230.05072021484375,
+											"height": 221
+										},
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"exportSettings": [
+											{
+												"suffix": "",
+												"format": "SVG",
+												"constraint": { "type": "SCALE", "value": 1 }
+											}
+										],
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": {
+									"x": 5821.44921875,
+									"y": 1225,
+									"width": 855.5507202148438,
+									"height": 289
+								},
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:109",
+								"name": "Email",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:110",
+										"name": "Group 2",
+										"type": "GROUP",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "145:111",
+												"name": "Rectangle 6",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 5771, "y": 2477, "width": 309, "height": 40 },
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "stroke": "34:12" },
+												"effects": [],
+												"cornerRadius": 40,
+												"rectangleCornerRadii": [40, 40, 40, 40]
+											},
+											{
+												"id": "145:112",
+												"name": "Email",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 5802.7646484375,
+													"y": 2482,
+													"width": 88.54444122314453,
+													"height": 30
+												},
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:9", "text": "36:23" },
+												"effects": [],
+												"characters": "Email",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											}
+										],
+										"absoluteBoundingBox": { "x": 5771, "y": 2477, "width": 309, "height": 40 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": []
+									},
+									{
+										"id": "145:113",
+										"name": "Group",
+										"type": "GROUP",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "145:114",
+												"name": "Rectangle 6.1",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6099, "y": 2477, "width": 324, "height": 40 },
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "stroke": "34:12" },
+												"effects": [],
+												"cornerRadius": 40,
+												"rectangleCornerRadii": [40, 40, 40, 40]
+											},
+											{
+												"id": "145:115",
+												"name": "Name",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": {
+													"x": 6130.7646484375,
+													"y": 2482,
+													"width": 88.54444122314453,
+													"height": 30
+												},
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.7250000238418579,
+															"g": 0.7250000238418579,
+															"b": 0.7250000238418579,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:9", "text": "36:23" },
+												"effects": [],
+												"characters": "Name",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Regular",
+													"fontWeight": 400,
+													"fontSize": 20,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 23.4375,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											}
+										],
+										"absoluteBoundingBox": { "x": 6099, "y": 2477, "width": 324, "height": 40 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": []
+									},
+									{
+										"id": "145:116",
+										"name": "Button",
+										"type": "GROUP",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "145:117",
+												"name": "Rectangle 6",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6442, "y": 2477, "width": 296, "height": 40 },
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "34:12" },
+												"effects": [],
+												"cornerRadius": 40,
+												"rectangleCornerRadii": [40, 40, 40, 40]
+											},
+											{
+												"id": "145:118",
+												"name": "Skicka",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6559, "y": 2488, "width": 46, "height": 18 },
+												"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:2", "text": "39:17" },
+												"effects": [],
+												"characters": "Skicka",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"textCase": "UPPER",
+													"fontSize": 12,
+													"textAlignHorizontal": "LEFT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 14.0625,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											}
+										],
+										"absoluteBoundingBox": { "x": 6442, "y": 2477, "width": 296, "height": 40 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": { "x": 5771, "y": 2477, "width": 967, "height": 40 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:119",
+								"name": "Text Link",
+								"type": "INSTANCE",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "I145:119;36:41",
+										"name": "Se alla inlägg",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5891, "y": 2919, "width": 166, "height": 36 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.15656250715255737,
+													"g": 0.6311209201812744,
+													"b": 0.6958333253860474,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:12" },
+										"effects": [],
+										"characters": "Se alla inlägg",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 24,
+											"textAlignHorizontal": "RIGHT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 28.125,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "I145:119;36:42",
+										"name": "Arrow",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:119;36:42;36:10",
+												"name": "Vector",
+												"type": "VECTOR",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6080, "y": 2930, "width": 29, "height": 18 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 2,
+												"strokeAlign": "CENTER",
+												"styles": { "stroke": "34:12" },
+												"effects": []
+											}
+										],
+										"absoluteBoundingBox": { "x": 6080, "y": 2930, "width": 29, "height": 18 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"clipsContent": false,
+										"background": [
+											{
+												"blendMode": "NORMAL",
+												"visible": false,
+												"type": "SOLID",
+												"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+											}
+										],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:11"
+									}
+								],
+								"absoluteBoundingBox": { "x": 5888, "y": 2919, "width": 221, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": [],
+								"componentId": "36:45"
+							},
+							{
+								"id": "145:120",
+								"name": "Text Link",
+								"type": "INSTANCE",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "I145:120;36:41",
+										"name": "Se alla videos",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5917, "y": 3852, "width": 169, "height": 36 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.15656250715255737,
+													"g": 0.6311209201812744,
+													"b": 0.6958333253860474,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:12" },
+										"effects": [],
+										"characters": "Se alla videos",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 24,
+											"textAlignHorizontal": "RIGHT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 28.125,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "I145:120;36:42",
+										"name": "Arrow",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:120;36:42;36:10",
+												"name": "Vector",
+												"type": "VECTOR",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6109, "y": 3863, "width": 29, "height": 18 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [],
+												"strokes": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokeWeight": 2,
+												"strokeAlign": "CENTER",
+												"styles": { "stroke": "34:12" },
+												"effects": []
+											}
+										],
+										"absoluteBoundingBox": { "x": 6109, "y": 3863, "width": 29, "height": 18 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"clipsContent": false,
+										"background": [
+											{
+												"blendMode": "NORMAL",
+												"visible": false,
+												"type": "SOLID",
+												"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+											}
+										],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:11"
+									}
+								],
+								"absoluteBoundingBox": { "x": 5917, "y": 3852, "width": 221, "height": 39 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": [],
+								"componentId": "36:45"
+							},
+							{
+								"id": "145:121",
+								"name": "Blogg Intro",
+								"type": "GROUP",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "145:122",
+										"name": "Rectangle 5",
+										"type": "RECTANGLE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5680, "y": 853, "width": 1148, "height": 282 },
+										"preserveRatio": true,
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"styles": { "fill": "34:2", "effect": "8:0" },
+										"effects": [
+											{
+												"type": "DROP_SHADOW",
+												"visible": true,
+												"color": { "r": 0, "g": 0, "b": 0, "a": 0.25 },
+												"blendMode": "NORMAL",
+												"offset": { "x": 0, "y": 10 },
+												"radius": 20
+											}
+										],
+										"cornerRadius": 10,
+										"rectangleCornerRadii": [10, 10, 10, 10]
+									},
+									{
+										"id": "145:123",
+										"name": "Blogg",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5680, "y": 820, "width": 104, "height": 56 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:22" },
+										"effects": [],
+										"characters": "Blogg",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 34,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 39.84375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:124",
+										"name": "Text om bloggen. Vad skriver du om, varför du skriver och vad du hoppas uppnå med att skriva om olika saker? Text om bloggen. Vad skriver du om, varför du skriver och vad du hoppas uppnå med att skriva om olika saker? Text om bloggen. Vad skriver du om, varför du skriver och vad du hoppas uppnå med att skriva om olika saker?",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5728, "y": 913, "width": 1049, "height": 133 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1" },
+										"effects": [],
+										"characters": "Text om bloggen. Vad skriver du om, varför du skriver och vad du hoppas uppnå med att skriva om olika saker? Text om bloggen. Vad skriver du om, varför du skriver och vad du hoppas uppnå med att skriva om olika saker? Text om bloggen. Vad skriver du om, varför du skriver och vad du hoppas uppnå med att skriva om olika saker?",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Light",
+											"fontWeight": 300,
+											"fontSize": 20,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 23.4375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "145:125",
+										"name": "Text Link",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:125;36:41",
+												"name": "Gå till bloggen",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6580, "y": 1082, "width": 178, "height": 36 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": {
+															"r": 0.15656250715255737,
+															"g": 0.6311209201812744,
+															"b": 0.6958333253860474,
+															"a": 1
+														}
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:12" },
+												"effects": [],
+												"characters": "Gå till bloggen",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"fontSize": 24,
+													"textAlignHorizontal": "RIGHT",
+													"textAlignVertical": "TOP",
+													"letterSpacing": 0,
+													"lineHeightPx": 28.125,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											},
+											{
+												"id": "I145:125;36:42",
+												"name": "Arrow",
+												"type": "INSTANCE",
+												"blendMode": "PASS_THROUGH",
+												"children": [
+													{
+														"id": "I145:125;36:42;36:10",
+														"name": "Vector",
+														"type": "VECTOR",
+														"blendMode": "PASS_THROUGH",
+														"absoluteBoundingBox": {
+															"x": 6781,
+															"y": 1093,
+															"width": 29,
+															"height": 18
+														},
+														"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+														"fills": [],
+														"strokes": [
+															{
+																"blendMode": "NORMAL",
+																"type": "SOLID",
+																"color": {
+																	"r": 0.15656250715255737,
+																	"g": 0.6311209201812744,
+																	"b": 0.6958333253860474,
+																	"a": 1
+																}
+															}
+														],
+														"strokeWeight": 2,
+														"strokeAlign": "CENTER",
+														"styles": { "stroke": "34:12" },
+														"exportSettings": [
+															{
+																"suffix": "",
+																"format": "SVG",
+																"constraint": { "type": "SCALE", "value": 1 }
+															}
+														],
+														"effects": []
+													}
+												],
+												"absoluteBoundingBox": { "x": 6781, "y": 1093, "width": 29, "height": 18 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"clipsContent": false,
+												"background": [
+													{
+														"blendMode": "NORMAL",
+														"visible": false,
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+												"effects": [],
+												"componentId": "36:11"
+											}
+										],
+										"absoluteBoundingBox": { "x": 6589, "y": 1082, "width": 221, "height": 39 },
+										"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:45"
+									}
+								],
+								"absoluteBoundingBox": { "x": 5680, "y": 820, "width": 1148, "height": 315 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": []
+							},
+							{
+								"id": "145:126",
+								"name": "Inlägg",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5649, "y": 2868, "width": 1211, "height": 105 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"styles": { "fill": "34:1", "text": "36:19" },
+								"effects": [],
+								"characters": "Inlägg",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 64,
+									"textAlignHorizontal": "LEFT",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 75,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:127",
+								"name": "Videos",
+								"type": "TEXT",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5649, "y": 3809, "width": 230, "height": 105 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "OUTSIDE",
+								"styles": { "fill": "34:1", "text": "36:19" },
+								"effects": [],
+								"characters": "Videos",
+								"style": {
+									"fontFamily": "Poppins",
+									"fontPostScriptName": "Poppins-Bold",
+									"fontWeight": 700,
+									"fontSize": 64,
+									"textAlignHorizontal": "CENTER",
+									"textAlignVertical": "TOP",
+									"letterSpacing": 0,
+									"lineHeightPx": 75,
+									"lineHeightPercent": 100,
+									"lineHeightUnit": "INTRINSIC_%"
+								},
+								"characterStyleOverrides": [],
+								"styleOverrideTable": {}
+							},
+							{
+								"id": "145:128",
+								"name": "Rectangle 3",
+								"type": "RECTANGLE",
+								"blendMode": "PASS_THROUGH",
+								"absoluteBoundingBox": { "x": 5534, "y": 4952, "width": 1440, "height": 574 },
+								"constraints": { "vertical": "BOTTOM", "horizontal": "LEFT" },
+								"fills": [
+									{
+										"blendMode": "NORMAL",
+										"type": "SOLID",
+										"color": {
+											"r": 0.21250000596046448,
+											"g": 0.21250000596046448,
+											"b": 0.21250000596046448,
+											"a": 1
+										}
+									}
+								],
+								"strokes": [],
+								"strokeWeight": 1,
+								"strokeAlign": "INSIDE",
+								"styles": { "fill": "34:1" },
+								"effects": []
+							},
+							{
+								"id": "145:129",
+								"name": "Video Box",
+								"type": "INSTANCE",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "I145:129;54:55",
+										"name": "Rectangle 5",
+										"type": "RECTANGLE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5649, "y": 3970, "width": 1211, "height": 282 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"effects": []
+									},
+									{
+										"id": "I145:129;54:83",
+										"name": "Button",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:129;54:83;36:58",
+												"name": "Rectangle 4",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6603, "y": 4177, "width": 250, "height": 50 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "GRADIENT_LINEAR",
+														"gradientHandlePositions": [
+															{ "x": -1.1102230246251565e-16, "y": 0 },
+															{ "x": 0.9999999999999998, "y": 0 },
+															{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+														],
+														"gradientStops": [
+															{
+																"color": {
+																	"r": 1,
+																	"g": 0.929411768913269,
+																	"b": 0.7372549176216125,
+																	"a": 1
+																},
+																"position": 0
+															},
+															{
+																"color": {
+																	"r": 0.929411768913269,
+																	"g": 0.25882354378700256,
+																	"b": 0.3921568691730499,
+																	"a": 1
+																},
+																"position": 1
+															}
+														]
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "8:13" },
+												"effects": [],
+												"cornerRadius": 80,
+												"rectangleCornerRadii": [80, 80, 80, 80]
+											},
+											{
+												"id": "I145:129;54:83;36:59",
+												"name": "Se video",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6692, "y": 4190, "width": 72, "height": 24 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:2" },
+												"effects": [],
+												"characters": "Se video",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"textCase": "UPPER",
+													"fontSize": 16,
+													"textAlignHorizontal": "CENTER",
+													"textAlignVertical": "CENTER",
+													"letterSpacing": 0,
+													"lineHeightPx": 18.75,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											}
+										],
+										"absoluteBoundingBox": { "x": 6603, "y": 4177, "width": 250, "height": 50 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:60"
+									},
+									{
+										"id": "I145:129;54:56",
+										"name": "image",
+										"type": "RECTANGLE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5649, "y": 3970, "width": 414, "height": 282 },
+										"preserveRatio": true,
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "IMAGE",
+												"scaleMode": "FILL",
+												"imageRef": "bd1fe6558ee2260288c724d2092f4c79ab79aae4"
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"effects": []
+									},
+									{
+										"id": "I145:129;54:57",
+										"name": "En tanke angående stress",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5649, "y": 3921, "width": 319, "height": 36 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:53" },
+										"effects": [],
+										"characters": "En tanke angående stress",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 24,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 28.125,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "I145:129;54:58",
+										"name": "I videon går jag igenom vad som kan hända om man inte ser över sitt intag av mjölkprodukter och blir således en kall människa.",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 6116, "y": 3970, "width": 719, "height": 133 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1" },
+										"effects": [],
+										"characters": "I videon går jag igenom vad som kan hända om man inte ser över sitt intag av mjölkprodukter och blir således en kall människa.",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Light",
+											"fontWeight": 300,
+											"fontSize": 20,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 23.4375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "I145:129;54:171",
+										"name": "Line",
+										"type": "LINE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": {
+											"x": 6116,
+											"y": 4252,
+											"width": 744,
+											"height": 0.00006504254997707903
+										},
+										"preserveRatio": true,
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [],
+										"strokes": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.7250000238418579,
+													"g": 0.7250000238418579,
+													"b": 0.7250000238418579,
+													"a": 1
+												}
+											}
+										],
+										"strokeWeight": 1,
+										"strokeAlign": "CENTER",
+										"styles": { "stroke": "34:9" },
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": { "x": 5649, "y": 3921, "width": 1211, "height": 356 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": [],
+								"componentId": "54:63"
+							},
+							{
+								"id": "145:130",
+								"name": "Video Box",
+								"type": "INSTANCE",
+								"blendMode": "PASS_THROUGH",
+								"children": [
+									{
+										"id": "I145:130;54:55",
+										"name": "Rectangle 5",
+										"type": "RECTANGLE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5649, "y": 4397, "width": 1211, "height": 282 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"effects": []
+									},
+									{
+										"id": "I145:130;54:83",
+										"name": "Button",
+										"type": "INSTANCE",
+										"blendMode": "PASS_THROUGH",
+										"children": [
+											{
+												"id": "I145:130;54:83;36:58",
+												"name": "Rectangle 4",
+												"type": "RECTANGLE",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6603, "y": 4604, "width": 250, "height": 50 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "GRADIENT_LINEAR",
+														"gradientHandlePositions": [
+															{ "x": -1.1102230246251565e-16, "y": 0 },
+															{ "x": 0.9999999999999998, "y": 0 },
+															{ "x": -2.70787426928875e-16, "y": 37.279735376615164 }
+														],
+														"gradientStops": [
+															{
+																"color": {
+																	"r": 1,
+																	"g": 0.929411768913269,
+																	"b": 0.7372549176216125,
+																	"a": 1
+																},
+																"position": 0
+															},
+															{
+																"color": {
+																	"r": 0.929411768913269,
+																	"g": 0.25882354378700256,
+																	"b": 0.3921568691730499,
+																	"a": 1
+																},
+																"position": 1
+															}
+														]
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "INSIDE",
+												"styles": { "fill": "8:13" },
+												"effects": [],
+												"cornerRadius": 80,
+												"rectangleCornerRadii": [80, 80, 80, 80]
+											},
+											{
+												"id": "I145:130;54:83;36:59",
+												"name": "Se video",
+												"type": "TEXT",
+												"blendMode": "PASS_THROUGH",
+												"absoluteBoundingBox": { "x": 6692, "y": 4617, "width": 72, "height": 24 },
+												"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+												"fills": [
+													{
+														"blendMode": "NORMAL",
+														"type": "SOLID",
+														"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+													}
+												],
+												"strokes": [],
+												"strokeWeight": 1,
+												"strokeAlign": "OUTSIDE",
+												"styles": { "fill": "34:2" },
+												"effects": [],
+												"characters": "Se video",
+												"style": {
+													"fontFamily": "Poppins",
+													"fontPostScriptName": "Poppins-Bold",
+													"fontWeight": 700,
+													"textCase": "UPPER",
+													"fontSize": 16,
+													"textAlignHorizontal": "CENTER",
+													"textAlignVertical": "CENTER",
+													"letterSpacing": 0,
+													"lineHeightPx": 18.75,
+													"lineHeightPercent": 100,
+													"lineHeightUnit": "INTRINSIC_%"
+												},
+												"characterStyleOverrides": [],
+												"styleOverrideTable": {}
+											}
+										],
+										"absoluteBoundingBox": { "x": 6603, "y": 4604, "width": 250, "height": 50 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"clipsContent": false,
+										"background": [],
+										"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+										"effects": [],
+										"componentId": "36:60"
+									},
+									{
+										"id": "I145:130;54:56",
+										"name": "image",
+										"type": "RECTANGLE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5649, "y": 4397, "width": 414, "height": 282 },
+										"preserveRatio": true,
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "IMAGE",
+												"scaleMode": "FILL",
+												"imageRef": "ae93598b121236a3e4840a6439124ccda14d6c9b"
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "INSIDE",
+										"effects": []
+									},
+									{
+										"id": "I145:130;54:57",
+										"name": "Vad gör skolan för ditt barn?",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 5649, "y": 4348, "width": 350, "height": 36 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1", "text": "36:53" },
+										"effects": [],
+										"characters": "Vad gör skolan för ditt barn?",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Bold",
+											"fontWeight": 700,
+											"fontSize": 24,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 28.125,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "I145:130;54:58",
+										"name": "I videon går jag igenom vad som kan hända om man inte ser över sitt intag av mjölkprodukter och blir således en kall människa.",
+										"type": "TEXT",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": { "x": 6116, "y": 4397, "width": 719, "height": 133 },
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.21250000596046448,
+													"g": 0.21250000596046448,
+													"b": 0.21250000596046448,
+													"a": 1
+												}
+											}
+										],
+										"strokes": [],
+										"strokeWeight": 1,
+										"strokeAlign": "OUTSIDE",
+										"styles": { "fill": "34:1" },
+										"effects": [],
+										"characters": "I videon går jag igenom vad som kan hända om man inte ser över sitt intag av mjölkprodukter och blir således en kall människa.",
+										"style": {
+											"fontFamily": "Poppins",
+											"fontPostScriptName": "Poppins-Light",
+											"fontWeight": 300,
+											"fontSize": 20,
+											"textAlignHorizontal": "LEFT",
+											"textAlignVertical": "TOP",
+											"letterSpacing": 0,
+											"lineHeightPx": 23.4375,
+											"lineHeightPercent": 100,
+											"lineHeightUnit": "INTRINSIC_%"
+										},
+										"characterStyleOverrides": [],
+										"styleOverrideTable": {}
+									},
+									{
+										"id": "I145:130;54:171",
+										"name": "Line",
+										"type": "LINE",
+										"blendMode": "PASS_THROUGH",
+										"absoluteBoundingBox": {
+											"x": 6116,
+											"y": 4679,
+											"width": 744,
+											"height": 0.00006504254997707903
+										},
+										"preserveRatio": true,
+										"constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+										"fills": [],
+										"strokes": [
+											{
+												"blendMode": "NORMAL",
+												"type": "SOLID",
+												"color": {
+													"r": 0.7250000238418579,
+													"g": 0.7250000238418579,
+													"b": 0.7250000238418579,
+													"a": 1
+												}
+											}
+										],
+										"strokeWeight": 1,
+										"strokeAlign": "CENTER",
+										"styles": { "stroke": "34:9" },
+										"effects": []
+									}
+								],
+								"absoluteBoundingBox": { "x": 5649, "y": 4348, "width": 1211, "height": 356 },
+								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+								"clipsContent": false,
+								"background": [],
+								"backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+								"effects": [],
+								"componentId": "54:63"
+							}
+						],
+						"absoluteBoundingBox": { "x": 5534, "y": -62, "width": 1440, "height": 5588 },
+						"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+						"clipsContent": true,
+						"background": [
+							{
+								"blendMode": "NORMAL",
+								"type": "SOLID",
+								"color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+							}
+						],
+						"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+						"effects": []
+					},
+					{
 						"id": "31:0",
 						"name": "Meny: Hem Artiklar Videor Samarbeten Tjänster Om mig Kontakt",
 						"type": "TEXT",
@@ -5901,7 +9690,7 @@
 								"name": "SMobile",
 								"type": "TEXT",
 								"blendMode": "PASS_THROUGH",
-								"absoluteBoundingBox": { "x": -257, "y": 652, "width": 33, "height": 18 },
+								"absoluteBoundingBox": { "x": -257, "y": 652, "width": 40, "height": 18 },
 								"constraints": { "vertical": "TOP", "horizontal": "LEFT" },
 								"fills": [
 									{
@@ -5920,13 +9709,13 @@
 									"fontPostScriptName": "HelveticaNeue",
 									"fontWeight": 400,
 									"paragraphSpacing": 1,
-									"fontSize": 10,
+									"fontSize": 12,
 									"textAlignHorizontal": "LEFT",
 									"textAlignVertical": "TOP",
 									"letterSpacing": 0,
 									"lineHeightPx": 18,
-									"lineHeightPercent": 153.60000610351562,
-									"lineHeightPercentFontSize": 180,
+									"lineHeightPercent": 128,
+									"lineHeightPercentFontSize": 150,
 									"lineHeightUnit": "PIXELS"
 								},
 								"characterStyleOverrides": [],
@@ -7636,7 +11425,7 @@
 		}
 	},
 	"name": "Psykolog Jenny",
-	"lastModified": "2019-08-08T13:45:17.923089Z",
-	"thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/b88a8164-b94a-4c6f-8d53-656e4672fe30?Expires=1566172800&Signature=AFP8ZVSy~8hMxQTYeJuvIPzkdRwVSqHI0dBb5NLFHeNEWimgtxV3FNF-DH4GaysUFaKG3NaqBsAropen7vJjSvtJnWLzGrR5zmiiVeYrkA2DYrUgZblxT-10K~uQXo5uZv2MTItL883k3klupXmjQsgvz0b45KqlUwDXT1KVnMZ8he5ca0Z~Ey5vxZ8YfeLA7ahbboW5PmH2-0-82NWYtxn8pNTD2k1jtwMlqAP862gcNyVOEcTi5RBlTDO2WajKqACSUvKux4s-oht11urbnji3nSmH8AnZcsFadiMjSHzrkUtRdPY9T-qSP5WfRuwDAQuUfEu9nb70NLvr5CrUTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-	"version": "159045606"
+	"lastModified": "2019-08-13T12:43:36.559421Z",
+	"thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/7e578dec-772a-4c74-8bab-332941f50bbd?Expires=1566777600&Signature=fRki2-4GlxJtcsgRZLOMMZw9C4aqgjGIZ2rLhCrCTx-0qaEPsNWGQl1nEJiecudg4Rtyb6tVwPdD5rsZFtGVUbqMUfo0m-5lomkBq~x~ZsYWsC2GlnCQsUFZEDtf4KSanQ2u9t0JMLkdIKBw4jN08N2F2V8cah1~ANXr59oYcDevSAwpoT8-w0jwo6um8o6CmjMgdkoLDQ8Cbaz10bDES~6tc7LYy2-uB9gwg1b6Zp68ufMoV8HxHY5-8EVmxpA52nAqWGC~rz8z6HysAFsJcP3xvVb8P0KVi2DJZaTw2ozWzrkDSRSL-LB1cL0lwOoTF3ENM8KzFBNP7UnUzeCRKw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+	"version": "160611426"
 }

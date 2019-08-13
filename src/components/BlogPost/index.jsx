@@ -1,14 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import BlogPostStyled from './BlogPostStyled';
 import H3 from 'components/H3';
 import Button from 'components/Button';
 import Paragraph from 'components/Paragraph';
 
-const BlogPost = ({ img, title, summary, url, text, ...props }) => (
+import BlogPostStyled, { Tags, NoteTag } from './BlogPostStyled';
+
+const BlogPost = ({ img, title, summary, url, text, tags, ...props }) => (
 	<BlogPostStyled {...props}>
-		<img src={img}></img>
+		<img src={`${img}?w=500`}></img>
+		<Tags>
+			{tags.map((tag, index) => (
+				<NoteTag key={`Tags-${index}`}>{tag.fields.name}</NoteTag>
+			))}
+		</Tags>
 		<H3>{title}</H3>
 		<Paragraph>{summary}</Paragraph>
 		<Button
@@ -25,7 +31,8 @@ BlogPost.propTypes = {
 	title: PropTypes.string,
 	summary: PropTypes.string,
 	url: PropTypes.string,
-	text: PropTypes.object
+	text: PropTypes.object,
+	tags: PropTypes.array
 };
 
 BlogPost.defaultProps = {};

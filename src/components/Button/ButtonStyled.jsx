@@ -44,6 +44,7 @@ const ButtonStyled = styled.button`
 		cursor: not-allowed;
 		border: 0;
 		color: ${colors.offwhite};
+		background: initial;
 		background-color: ${colors.grey};
 		transition: 0.2s;
 	}
