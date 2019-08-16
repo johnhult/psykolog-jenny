@@ -13,7 +13,6 @@ const View = ({ title, ...props }) => (
 			<link rel="canonical" href={window.location.href} />
 		</Helmet>
 		{props.children}
-		<Footer></Footer>
 	</ViewStyled>
 );
 

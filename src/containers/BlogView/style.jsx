@@ -11,6 +11,13 @@ import Loader from '../../components/Loader/index';
 
 export const BlogViewStyled = styled(View)`
 	text-align: center;
+	&.AnimatePostOut-exit {
+		transition: 0;
+		opacity: 1;
+	}
+	&.AnimatePostOut-exit-active {
+		opacity: 0;
+	}
 `;
 
 export const BlogHeader = styled.div`
@@ -46,7 +53,7 @@ export const Tag = styled.div`
 	margin: 5px;
 	cursor: pointer;
 	transition: 0.2s;
-	background-color: ${({ active }) => (active ? colors.secondary : null)};
+	background-color: ${({ active }) => (active ? colors.secondary : colors.white)};
 	color: ${({ active }) => (active ? colors.white : null)};
 	&:hover {
 		background-color: ${({ active }) =>

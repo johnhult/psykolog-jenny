@@ -6,7 +6,7 @@ import ParagraphStyled from './ParagraphStyled';
 const Paragraph = props => <ParagraphStyled {...props}>{props.children}</ParagraphStyled>;
 
 Paragraph.propTypes = {
-	children: PropTypes.string.isRequired,
+	children: PropTypes.node.isRequired,
 	size: PropTypes.string
 };
 

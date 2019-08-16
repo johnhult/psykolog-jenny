@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router';
 import ConfettiGenerator from 'confetti-js';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
@@ -222,11 +222,12 @@ class HomeView extends React.Component {
 										<BlogPost
 											key={`Post-${index}`}
 											className="Post"
-											img={post.mainImage.file.url}
+											mainImage={post.mainImage}
 											title={post.title}
 											summary={post.summary}
 											tags={post.tags}
 											url={`/blog/${post.url}`}
+											text={post.text}
 										></BlogPost>
 									);
 								})}

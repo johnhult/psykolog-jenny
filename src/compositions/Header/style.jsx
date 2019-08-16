@@ -48,7 +48,7 @@ export const BlobImg = styled.img`
 	width: auto;
 	height: 100%;
 	z-index: -1;
-	transform: translate3d(0, 0, 1px);
+	transform: translate3d(0, 0, 0);
 	max-width: initial;
 	@media all and (min-width: ${breakpoints.tablet}) {
 		width: 80%;
@@ -56,6 +56,6 @@ export const BlobImg = styled.img`
 	}
 	&.Nudge {
 		z-index: -2;
-		transform: translate3d(10%, 20px, 0);
+		transform: translate3d(10%, 20px, -1px);
 	}
 `;
