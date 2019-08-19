@@ -11,9 +11,11 @@ export default async function getDataContentful(query, getAll, options, includeS
 			.getEntries(settings)
 			.then(entries => {
 				// Do some clean-up: Make sure we only return "fields" and not the "sys" bits
-				console.log(entries);
+
+				// console.log('entries!!', entries);
 				const _entries = entries.items;
 				_entries.totalItems = entries.total;
+
 				Object.keys(_entries).forEach(key => {
 					if (_entries[key].fields) {
 						if (!includeSys) {

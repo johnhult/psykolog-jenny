@@ -7,6 +7,8 @@ const FooterStyled = styled.div`
 	width: 100%;
 	color: ${colors.white};
 	margin-top: 100px;
+	position: relative;
+	z-index: 0;
 `;
 
 export const FooterFirst = styled.div`

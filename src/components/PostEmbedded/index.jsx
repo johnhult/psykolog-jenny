@@ -2,16 +2,12 @@ import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
 
-import H3 from 'components/H3';
-import Button from 'components/Button';
-import Tags from 'components/Tags';
-import Paragraph from 'components/Paragraph';
+import PostEmbeddedStyled, { Wrapper } from './PostEmbeddedStyled';
+import H3 from '../H3/index';
+import Tags from '../Tags/index';
 
-import BlogPostStyled, { BlogImg } from './BlogPostStyled';
-
-const BlogPost = ({ mainImage, title, summary, url, text, tags, ...props }) => {
-	const blogWrapper = useRef(null);
-
+const PostEmbedded = ({ mainImage, title, summary, url, text, tags, ...props }) => {
+	const blogWrapper = useRef();
 	const navigate = () => {
 		const rect = blogWrapper.current ? blogWrapper.current.getBoundingClientRect() : null;
 		let meta;
@@ -39,24 +35,18 @@ const BlogPost = ({ mainImage, title, summary, url, text, tags, ...props }) => {
 			}
 		});
 	};
-
 	return (
-		<BlogPostStyled {...props} ref={blogWrapper}>
-			<BlogImg className="ImageMobile" src={`${mainImage.file.url}?w=1000`} />
-			<BlogImg className="ImageDesktop" src={`${mainImage.file.url}`} />
-			<Tags tags={tags}></Tags>
-			<H3>{title}</H3>
-			<Paragraph>{summary}</Paragraph>
-			{blogWrapper && (
-				<Button onClick={() => navigate()} className="BlogPostButton">
-					Läs inlägg
-				</Button>
-			)}
-		</BlogPostStyled>
+		<PostEmbeddedStyled onClick={navigate} ref={blogWrapper}>
+			<img src={mainImage.file ? mainImage.file.url : mainImage.fields.file.url}></img>
+			<Wrapper>
+				<H3>{title}</H3>
+				<Tags tags={tags}></Tags>
+			</Wrapper>
+		</PostEmbeddedStyled>
 	);
 };
 
-BlogPost.propTypes = {
+PostEmbedded.propTypes = {
 	mainImage: PropTypes.object,
 	title: PropTypes.string,
 	summary: PropTypes.string,
@@ -66,6 +56,6 @@ BlogPost.propTypes = {
 	history: PropTypes.object
 };
 
-BlogPost.defaultProps = {};
+PostEmbedded.defaultProps = {};
 
-export default withRouter(BlogPost);
+export default withRouter(PostEmbedded);

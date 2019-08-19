@@ -45,53 +45,6 @@ class Routes extends React.Component {
 				/>
 				<Route render={() => <Redirect to="/" />} />
 			</Switch>
-			// <Switch location={this.props.location}>
-			// 	<Route
-			// 		exact
-			// 		path="/"
-			// 		render={() => (
-			// 			<TransitionGroup component={null}>
-			// 				<CSSTransition key={this.props.location.key} timeout={0} unmountOnExit>
-			// 					<HomeView />
-			// 				</CSSTransition>
-			// 			</TransitionGroup>
-			// 		)}
-			// 	/>
-			// 	<Route
-			// 		exact
-			// 		path="/blog"
-			// 		render={() => (
-			// 			<TransitionGroup component={null}>
-			// 				<CSSTransition key={this.props.location.key} timeout={10000} unmountOnExit>
-			// 					<BlogView />
-			// 				</CSSTransition>
-			// 			</TransitionGroup>
-			// 		)}
-			// 	/>
-			// 	<Route
-			// 		exact
-			// 		path="/blog/:id"
-			// 		render={({ match }) => {
-			// 			console.log('THIS IS MYT MATCH', match);
-			// 			return (
-			// 				<TransitionGroup component={null}>
-			// 					<CSSTransition
-			// 						key={this.props.location.key}
-			// 						classNames="AnimatePostIn"
-			// 						timeout={10000}
-			// 						mountOnEnter={true}
-			// 						unmountOnExit={true}
-			// 						in={match != null}
-			// 						appear={true}
-			// 					>
-			// 						<BlogPostView className="BlogWrapper" />
-			// 					</CSSTransition>
-			// 				</TransitionGroup>
-			// 			);
-			// 		}}
-			// 	/>
-			// 	<Route render={() => <Redirect to="/" />} />
-			// </Switch>
 		);
 	}
 }

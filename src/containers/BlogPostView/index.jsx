@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
-import { Transition, animated, config } from 'react-spring/renderprops';
+import { Transition, animated } from 'react-spring/renderprops';
 
 import H3 from 'components/H3';
 import Loader from 'components/Loader';
@@ -10,7 +10,14 @@ import Paragraph from 'components/Paragraph';
 import Tags from 'components/Tags';
 import mapBlogText from 'helpers/utils/mapBlogText';
 
-import { BlogPostViewStyled, BlogHero, BlogHeroImage, InnerWrapper, BlogText } from './style.jsx';
+import {
+	BlogPostViewStyled,
+	BlogHero,
+	BlogHeroImage,
+	InnerWrapper,
+	BlogText,
+	H3Blog
+} from './style.jsx';
 
 class BlogPostView extends React.Component {
 	constructor(props) {
@@ -21,6 +28,7 @@ class BlogPostView extends React.Component {
 
 			// Data from backend(s)
 			data: null,
+			blogPost: null,
 
 			// Events
 			isLoading: true
@@ -31,20 +39,24 @@ class BlogPostView extends React.Component {
 		// In case you need to get view-specific data
 		let data;
 		if (this.props.location.state) {
-			// console.log('ISNDE STATE WE HAVE PROSP IN BLOGPOST', this.props);
+			console.log('ISNDE STATE WE HAVE PROSP IN BLOGPOST', this.props);
 			data = this.props.location.state.data;
 		} else {
+			console.log('NO BLOGINFO, LETS GET THIS FRIKKER!');
 			data = await getDataContentful('blogPost', true, {
-				'fields.url[in]': this.props.match.params.id
+				'fields.url[match]': this.props.match.params.id,
+				include: 3
 			});
 			data = data[0];
 		}
 
-		console.log(data);
+		console.log('DATA FOR THIS BLOG BOST', data);
+		const blogPost = mapBlogText(data.text);
 
 		await (() => {
 			this.setState({
 				data,
+				blogPost,
 				isLoading: false
 			});
 		})();
@@ -64,8 +76,15 @@ class BlogPostView extends React.Component {
 		this.props.history.replace();
 	};
 
+	async componentDidUpdate(prevProps) {
+		if (prevProps.location !== this.props.location) {
+			await this.initView();
+		}
+	}
+
 	render() {
 		const { data } = this.props.location.state || this.state;
+		const { blogPost } = this.state;
 		const { meta } = this.props.location.state ? this.props.location.state : {};
 
 		return (
@@ -75,11 +94,13 @@ class BlogPostView extends React.Component {
 				) : (
 					<Transition
 						items={data}
-						config={{ config: config.wobbly }}
+						keys={this.props.location.key}
+						config={{ duration: 500 }}
 						immediate={!meta ? true : false}
 						from={{ ...meta, position: 'fixed' }}
 						enter={{ top: 60, bottom: 0, left: 0, right: 0, width: 'auto', textAlign: 'left' }}
 						after={{ position: 'initial', height: 'auto' }}
+						leave
 					>
 						{data =>
 							data &&
@@ -88,6 +109,9 @@ class BlogPostView extends React.Component {
 									<BlogHero>
 										<Transition
 											items={data}
+											unique
+											reset
+											config={{ duration: 500 }}
 											from={{ height: 200 }}
 											enter={{ height: 600 }}
 											immediate={!meta ? true : false}
@@ -108,9 +132,9 @@ class BlogPostView extends React.Component {
 										</Transition>
 										<InnerWrapper>
 											<Tags tags={data.tags}></Tags>
-											<H3>{data.title}</H3>
+											<H3Blog>{data.title}</H3Blog>
 											<Paragraph>{data.summary}</Paragraph>
-											<BlogText>{mapBlogText(data.text)}</BlogText>
+											<BlogText>{blogPost}</BlogText>
 										</InnerWrapper>
 									</BlogHero>
 								</animated.div>
@@ -120,7 +144,6 @@ class BlogPostView extends React.Component {
 				)}
 			</BlogPostViewStyled>
 		);
-		// }
 	}
 }
 
