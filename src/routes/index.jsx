@@ -19,6 +19,10 @@ const BlogPostView = Loadable({
 	loader: () => import('containers/BlogPostView'),
 	loading: () => <Loader />
 });
+const VideoView = Loadable({
+	loader: () => import('containers/VideoView'),
+	loading: () => <Loader />
+});
 
 class Routes extends React.Component {
 	constructor(props) {
@@ -43,6 +47,7 @@ class Routes extends React.Component {
 						return <BlogPostView className="BlogWrapper" />;
 					}}
 				/>
+				<Route exact path="/videos" render={() => <VideoView />} />
 				<Route render={() => <Redirect to="/" />} />
 			</Switch>
 		);

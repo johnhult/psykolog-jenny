@@ -11,13 +11,6 @@ import Loader from '../../components/Loader/index';
 
 export const BlogViewStyled = styled(View)`
 	text-align: center;
-	&.AnimatePostOut-exit {
-		transition: 0;
-		opacity: 1;
-	}
-	&.AnimatePostOut-exit-active {
-		opacity: 0;
-	}
 `;
 
 export const BlogHeader = styled.div`

@@ -10,6 +10,7 @@ const BlogPostStyled = styled.div`
 	border: 1px solid ${colors.offwhite};
 	display: flex;
 	flex-direction: column;
+	background-color: white;
 	h3 {
 		margin: 20px 0;
 	}

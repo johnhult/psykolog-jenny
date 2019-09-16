@@ -31,8 +31,12 @@ class BlogPostView extends React.Component {
 			blogPost: null,
 
 			// Events
-			isLoading: true
+			isLoading: true,
+
+			// Other
+			screenSize: window.innerWidth
 		};
+		this.resizeTimer = null;
 	}
 
 	async initView() {
@@ -65,11 +69,21 @@ class BlogPostView extends React.Component {
 	async componentDidMount() {
 		await this.initView();
 		window.addEventListener('beforeunload', this.componentCleanup);
+		window.addEventListener('resize', this.resize);
 	}
+
+	resize = () => {
+		clearTimeout(this.resizeTimer);
+		this.resizeTimer = setTimeout(this.doneResizing, 500);
+	};
+	doneResizing = () => {
+		this.setState({ screenSize: window.innerWidth });
+	};
 
 	componentWillUnmount() {
 		this.componentCleanup();
 		window.removeEventListener('beforeunload', this.componentCleanup);
+		window.removeEventListener('resize', this.resize);
 	}
 
 	componentCleanup = () => {
@@ -95,7 +109,7 @@ class BlogPostView extends React.Component {
 					<Transition
 						items={data}
 						keys={this.props.location.key}
-						config={{ duration: 500 }}
+						config={{ duration: 500, delay: 200 }}
 						immediate={!meta ? true : false}
 						from={{ ...meta, position: 'fixed' }}
 						enter={{ top: 60, bottom: 0, left: 0, right: 0, width: 'auto', textAlign: 'left' }}
@@ -111,9 +125,10 @@ class BlogPostView extends React.Component {
 											items={data}
 											unique
 											reset
-											config={{ duration: 500 }}
+											config={{ duration: 500, delay: 200 }}
 											from={{ height: 200 }}
-											enter={{ height: 600 }}
+											enter={{ height: this.state.screenSize >= 768 ? 600 : 200 }}
+											after={{ height: this.state.screenSize >= 768 ? 600 : 200 }}
 											immediate={!meta ? true : false}
 										>
 											{data =>
