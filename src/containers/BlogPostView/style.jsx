@@ -33,6 +33,22 @@ export const InnerWrapper = styled.div`
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 5%;
+	a {
+		color: ${colors.secondary};
+		text-decoration: underline;
+	}
+	ul {
+		padding-left: 20px;
+	}
+	li {
+		p {
+			margin: 0;
+		}
+		margin-bottom: 5px;
+	}
+	img {
+		margin-bottom: 20px;
+	}
 `;
 
 export const H3Blog = styled(H3)`

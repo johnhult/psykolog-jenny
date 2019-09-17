@@ -17,10 +17,6 @@ export default function mapBlogText(blogText) {
 				const h3 = <H3>{children}</H3>;
 				return h3;
 			},
-			[BLOCKS.HYPERLINK]: (node, children) => {
-				const h3 = <H3>{children}</H3>;
-				return h3;
-			},
 			[BLOCKS.EMBEDDED_ASSET]: node => {
 				const img = <img src={node.data.target.fields.file.url}></img>;
 				return img;
