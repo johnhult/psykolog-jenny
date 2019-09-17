@@ -14917,16 +14917,6 @@ react-transition-group@^2.0.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-transition-group@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.2.2.tgz#8b5252410180c27fd7eebf50b185256b41799b16"
-  integrity sha512-uP0tjqewtvjb7kGZFpZYPoD/NlVZmIgts9eTt1w35pAaEApPxQGv94lD3VkqyXf2aMqrSGwhs6EV/DLaoKbLSw==
-  dependencies:
-    "@babel/runtime" "^7.4.5"
-    dom-helpers "^3.4.0"
-    loose-envify "^1.4.0"
-    prop-types "^15.6.2"
-
 react-treebeard@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-treebeard/-/react-treebeard-3.1.0.tgz#e380b9e75f900e538044280ac365d29092583642"
